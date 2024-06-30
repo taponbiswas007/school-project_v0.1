@@ -61,3 +61,31 @@ table {
     padding: 5px 25px;
     border: none;
 }
+.event-hero-area{
+    background: url(../img/Sựkiện/event-hero-bg.png) no-repeat 0 0 / 100% 100%;
+    padding: 35px 40px;
+}
+.event-hero-area .inner{
+   padding: 14px;
+   background: #F4F5F8;
+   border-radius: 10px;
+
+}
+.event-hero-area .inner .hero-banner-img{
+    border-radius: 10px;
+    overflow: hidden;
+}
+.event-hero-area .inner .participant-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+    row-gap: 10px;
+    flex-wrap: wrap;
+}
+.event-hero-area .inner .participant-area .item{
+    height: 84px;
+    width: 84px;
+    border-radius: 50%;
+    overflow: hidden;
+}
