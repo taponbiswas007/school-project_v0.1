@@ -1,0 +1,10 @@
+@media screen and (max-width: 1200px) {
+    .event-main-area{
+        padding: 0 0;
+    }
+}
+@media screen and (max-width: 991px) {
+    .event-hero-area{
+        padding: 20px 20px;
+    }
+}

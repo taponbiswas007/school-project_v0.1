@@ -43,7 +43,7 @@ table {
 }
 .event-main-area{
     font-family: "Mulish", sans-serif;
-    padding: 77px 90px;
+    padding: 0 50px;
 }
 .event-header{
     margin-bottom: 11px;
@@ -77,6 +77,18 @@ table {
 .event-hero-area .inner .hero-banner-img{
     border-radius: 10px;
     overflow: hidden;
+    position: relative;
+    height: 240px;
+    width: 100%;
+}
+.event-hero-area .inner .hero-banner-img img{
+   position: absolute;
+   top: 0;
+   left: 0;
+   height: 100%;
+   width: 100%;
+   object-fit: fill;
+   object-position: center;
 }
 .event-hero-area .inner .participant-area{
     display: flex;
