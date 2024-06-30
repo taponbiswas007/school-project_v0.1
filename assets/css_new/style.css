@@ -1,60 +1,152 @@
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
 }
+
 body {
-	line-height: 1;
+    line-height: 1;
 }
-ol, ul {
-	list-style: none;
+
+ol,
+ul {
+    list-style: none;
 }
-blockquote, q {
-	quotes: none;
+
+blockquote,
+q {
+    quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
 }
+
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
-.event-main-area{
+
+/* Sự kiện page start */
+.event-main-area {
     font-family: "Mulish", sans-serif;
     padding: 0 50px;
 }
-.event-header{
+
+.event-header {
     margin-bottom: 11px;
 }
-.event-header h1{
+
+.event-header h1 {
     font-size: 12px;
     line-height: 16px;
     font-weight: 400;
     color: #505050;
 }
-.event-header button{
+
+.event-header button {
     font-size: 14px;
     line-height: 17px;
     font-weight: 500;
@@ -64,33 +156,38 @@ table {
     padding: 8px 25px;
     border: none;
 }
-.event-hero-area{
+
+.event-hero-area {
     background: url(../img/Sựkiện/event-hero-bg.png) no-repeat 0 0 / 100% 100%;
     padding: 35px 40px;
 }
-.event-hero-area .inner{
-   padding: 14px;
-   background: #F4F5F8;
-   border-radius: 10px;
+
+.event-hero-area .inner {
+    padding: 14px;
+    background: #F4F5F8;
+    border-radius: 10px;
 
 }
-.event-hero-area .inner .hero-banner-img{
+
+.event-hero-area .inner .hero-banner-img {
     border-radius: 10px;
     overflow: hidden;
     position: relative;
     height: 240px;
     width: 100%;
 }
-.event-hero-area .inner .hero-banner-img img{
-   position: absolute;
-   top: 0;
-   left: 0;
-   height: 100%;
-   width: 100%;
-   object-fit: fill;
-   object-position: center;
+
+.event-hero-area .inner .hero-banner-img img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+    object-position: center;
 }
-.event-hero-area .inner .participant-area{
+
+.event-hero-area .inner .participant-area {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -99,26 +196,30 @@ table {
     flex-wrap: wrap;
     margin-top: 14px;
 }
-.event-hero-area .inner .participant-area .item{
+
+.event-hero-area .inner .participant-area .item {
     display: flex;
     justify-content: center;
     align-items: center;
     row-gap: 10px;
     flex-direction: column;
 }
-.event-hero-area .inner .participant-area .item .images{
+
+.event-hero-area .inner .participant-area .item .images {
     height: 84px;
     width: 84px;
     border-radius: 50%;
     overflow: hidden;
 }
-.event-hero-area .inner .participant-area .item span{
+
+.event-hero-area .inner .participant-area .item span {
     font-size: 18px;
     font-weight: 900;
     text-transform: capitalize;
     color: #5b5b5b;
 }
-.event-hero-area .inner h1{
+
+.event-hero-area .inner h1 {
     font-size: 21px;
     font-weight: 900;
     text-align: center;
@@ -126,60 +227,67 @@ table {
     color: #424242;
     line-height: 25px;
 }
-.event-hero-area .inner p{
+
+.event-hero-area .inner p {
     font-size: 16px;
     font-weight: 400;
     text-align: center;
     color: #424242;
     line-height: 21px;
 }
-.event-hero-area  .event-conter-area{
+
+.event-hero-area .event-conter-area {
     margin-top: 18px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.event-hero-area  .event-conter-area button{
-   color: #ffffff;
-   font-size: 18px;
-   font-weight: 900;
-   text-transform: capitalize;
-   padding: 15px 40px;
-   border-radius: 30px;
-   border: 3px solid #ffffff;
-   box-shadow: 3px 6px 11px rgba(0, 0, 0, 0.7);
-   background: linear-gradient(to right top, #73ADF3 1%, #FF9A9B 26%, #FF50B7 64%);
+
+.event-hero-area .event-conter-area button {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 900;
+    text-transform: capitalize;
+    padding: 15px 40px;
+    border-radius: 30px;
+    border: 3px solid #ffffff;
+    box-shadow: 3px 6px 11px rgba(0, 0, 0, 0.7);
+    background: linear-gradient(to right top, #73ADF3 1%, #FF9A9B 26%, #FF50B7 64%);
 
 }
-.event-hero-area  .event-conter-area .event-remaining-counter{
+
+.event-hero-area .event-conter-area .event-remaining-counter {
     display: flex;
     justify-content: flex-start;
     column-gap: 10px;
     align-items: center;
 }
-.event-hero-area  .event-conter-area .event-remaining-counter .counter-item{
+
+.event-hero-area .event-conter-area .event-remaining-counter .counter-item {
     display: flex;
     justify-content: center;
     row-gap: 7px;
     flex-direction: column;
     align-items: center;
 }
-.event-hero-area  .event-conter-area .event-remaining-counter .counter-item .count-number{
+
+.event-hero-area .event-conter-area .event-remaining-counter .counter-item .count-number {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 40px;
     width: 40px;
- 
+
     box-shadow: 0 0 2px #818181;
     color: #5b5b5b;
     font-weight: 900;
     border-radius: 8px;
     text-align: center;
     font-size: 26px;
-    
+
 }
-.event-hero-area  .event-conter-area .event-remaining-counter .counter-item .count-content{
+
+.event-hero-area .event-conter-area .event-remaining-counter .counter-item .count-content {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -189,9 +297,10 @@ table {
     text-align: center;
     font-size: 16px;
     text-transform: capitalize;
-    
+
 }
-.eventdata-table h1{
+
+.eventdata-table h1 {
     font-size: 40px;
     font-weight: 700;
     color: #0487D9;
@@ -200,7 +309,8 @@ table {
     margin-top: 30px;
     line-height: 22px;
 }
-.eventdata-table p{
+
+.eventdata-table p {
     font-size: 32px;
     font-weight: 700;
     color: #515151;
@@ -208,6 +318,7 @@ table {
     text-align: center;
     margin-bottom: 40px;
 }
+
 .table-container {
     max-height: 500px;
     width: 100%;
@@ -222,7 +333,8 @@ table {
     overflow-x: scroll;
 }
 
-th, td {
+th,
+td {
     padding: 8px;
     text-align: left;
     border-bottom: 0.5px solid #D1D1D1;
@@ -230,27 +342,32 @@ th, td {
     border-right: none;
     vertical-align: middle;
 }
-td{
+
+td {
     font-size: 18px;
     font-weight: 900;
     color: #484848;
 }
-td ul{
+
+td ul {
     display: flex;
     justify-content: flex-start;
     align-items: center;
     column-gap: 22px;
 }
-td ul li{
+
+td ul li {
     display: inline-block;
 }
-td ul li span{
+
+td ul li span {
     color: #00D115;
     font-size: 14px;
     font-weight: 900;
     margin-right: 4px;
 }
-td ul .country-flag{
+
+td ul .country-flag {
     height: 40px;
     width: 40px;
     border-radius: 50%;
@@ -267,29 +384,37 @@ th {
     color: #484848;
     font-weight: 400;
 }
-tr{
+
+tr {
     height: 75px;
 }
-tr th:first-child{
+
+tr th:first-child {
     z-index: 3;
 }
-td:first-child, th:first-child {
+
+td:first-child,
+th:first-child {
     position: sticky;
     left: 0;
     background: #ffffff;
     z-index: 1;
 }
-th:last-child{
+
+th:last-child {
     text-align: end;
     padding-right: 74px;
 }
-td:last-child{
+
+td:last-child {
     text-align: end !important;
     padding-right: 20px;
 }
-td:last-child ul{
+
+td:last-child ul {
     justify-content: flex-end;
 }
+
 tr:last-child td {
     border-bottom: none;
 }
@@ -320,7 +445,8 @@ tr:last-child td {
 
 /* For IE and Edge */
 .table-container {
-    -ms-overflow-style: none; /* IE 10+ */
+    -ms-overflow-style: none;
+    /* IE 10+ */
 }
 
 .table-container::-ms-scrollbar {
@@ -336,3 +462,8 @@ tr:last-child td {
 .table-container::-ms-thumb:hover {
     background: #555;
 }
+
+
+/* -------------- */
+/* Sự kiện page end*/
+/* --------------- */
