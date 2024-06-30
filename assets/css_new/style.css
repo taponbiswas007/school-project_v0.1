@@ -196,3 +196,116 @@ table {
     text-align: center;
     margin-bottom: 40px;
 }
+.table-container {
+    max-height: 500px;
+    overflow-y: auto;
+    position: relative;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 0.5px solid #D1D1D1;
+    border-left: none;
+    border-right: none;
+    vertical-align: middle;
+}
+td{
+    font-size: 18px;
+    font-weight: 900;
+    color: #484848;
+}
+td ul{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 22px;
+}
+td ul li{
+    display: inline-block;
+}
+td ul li span{
+    color: #00D115;
+    font-size: 14px;
+    font-weight: 900;
+    margin-right: 4px;
+}
+td ul .country-flag{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+th {
+    height: 75px;
+    position: sticky;
+    top: 0;
+    background: #ffffff;
+    z-index: 2;
+    font-size: 18px;
+    color: #484848;
+    font-weight: 400;
+}
+tr{
+    height: 75px;
+}
+tr th:first-child{
+    z-index: 3;
+}
+td:first-child, th:first-child {
+    position: sticky;
+    left: 0;
+    background: #ffffff;
+    z-index: 1;
+}
+
+tr:last-child td {
+    border-bottom: none;
+}
+
+/* Custom scrollbar */
+.table-container::-webkit-scrollbar {
+    width: 6px;
+}
+
+.table-container::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.table-container::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+.table-container::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+/* For Firefox */
+.table-container {
+    scrollbar-width: thin;
+    scrollbar-color: #888 #f1f1f1;
+}
+
+/* For IE and Edge */
+.table-container {
+    -ms-overflow-style: none; /* IE 10+ */
+}
+
+.table-container::-ms-scrollbar {
+    width: 6px;
+    background: #f1f1f1;
+}
+
+.table-container::-ms-thumb {
+    background: #888;
+}
+
+.table-container::-ms-thumb:hover {
+    background: #555;
+}
