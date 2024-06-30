@@ -626,8 +626,56 @@ tr:last-child td {
     width: 18px;
     margin-right: 10px;
 }
-
-
+.gift-exchange-box .coin-collect-area{
+    background:  #ffffff;
+    padding: 6px 7px 10px 7px;
+    border-radius: 5px;
+}
+.gift-exchange-box .coin-collect-area .day-list-item .coinrreceived-btn{
+   
+}
+.gift-exchange-box .coin-collect-area .day-list-item .content-area{
+    height: 85px;
+    width: 99px;
+    border-radius: 5px;
+    background: #F9F9F9;
+    flex-direction: column;
+    row-gap: 10px;  
+}
+.gift-exchange-box .coin-collect-area .day-list-item .content-area .checked{
+    display: none;
+}
+.gift-exchange-box .coin-collect-area .day-list-item .content-area h2{
+    color: #FCAA17;
+    font-weight: 700;
+    font-size: 20px;
+}
+.gift-exchange-box .coin-collect-area .day-list-item .content-area img{
+    width: 40px;
+}
+.gift-exchange-box .coin-collect-area .day-list-item p{
+    text-align: center;
+    color: #797979;
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 8px;
+}
+.gift-exchange-box .coin-collect-area .coin-received .content-area .notchecked{
+    display: none !important;
+}
+.gift-exchange-box .coin-collect-area .coin-received .content-area .checked{
+    display: block !important;
+}
+.gift-exchange-box .coin-collect-area .active-day .content-area{
+    background: #FEFCEF;
+    border: 1px solid #4ABC96;
+}
+.gift-exchange-box .coin-collect-area .active-day .content-area .checked{
+    display: none !important;
+}
+.gift-exchange-box .coin-collect-area .active-day .content-area .notchecked{
+    display: block !important;
+}
 
 
 
