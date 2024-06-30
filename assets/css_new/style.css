@@ -128,8 +128,10 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
-
-/* Sự kiện page start */
+.active{
+    color: #3D92D1 !important;
+}
+/* event page start */
 .event-main-area {
     font-family: "Mulish", sans-serif;
     padding: 0 50px;
@@ -465,5 +467,5 @@ tr:last-child td {
 
 
 /* -------------- */
-/* Sự kiện page end*/
+/* event page end*/
 /* --------------- */
