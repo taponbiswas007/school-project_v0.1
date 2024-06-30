@@ -128,6 +128,9 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
+button{
+    border: none;
+}
 .active{
     color: #3D92D1 !important;
 }
@@ -469,3 +472,167 @@ tr:last-child td {
 /* -------------- */
 /* event page end*/
 /* --------------- */
+
+
+/* ------------------------------------------------------------------------- */
+
+/* mission page start */
+.mission-page-main-area{
+    font-family: "Mulish", sans-serif;
+    padding: 0 50px;
+}
+.mission-page-main-area h1{
+    font-size: 12px;
+    font-weight: 400;
+    color: #505050;
+}
+.mission-page-main-area .balance-bar{
+    margin: 18px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 20px;
+    flex-wrap: wrap;
+    row-gap: 20px;
+}
+
+.mission-page-main-area .balance-bar .balance-item ul{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 12px;
+
+}
+.mission-page-main-area .balance-bar .balance-item ul li{
+    display: inline-block;
+}
+.mission-page-main-area .balance-bar .balance-item ul li:nth-child(1){
+    height: 25px;
+    width: 25px;
+
+}
+.mission-page-main-area .balance-bar .balance-item ul li:nth-child(2){
+    font-size: 14px;
+    font-weight: 900;
+    color: #626262;
+}
+.mission-page-main-area .balance-bar .balance-item ul li:nth-child(3){
+    font-size: 14px;
+    font-weight: 400;
+    color: #626262;
+}
+.gift-exchange-box{
+    background: #FEFCEF;
+    border-radius: 10px;
+    padding: 18px;
+}
+
+.gift-exchange-box .profile-details-area .item:nth-child(1) img{
+    width: 106px;
+    height: 106px;
+}
+
+.gift-exchange-box .profile-details-area .item:nth-child(2) .top{
+    column-gap: 10px;
+}
+.gift-exchange-box .profile-details-area .item:nth-child(2) .top .title h1{
+    font-size: 20px;
+    color: #666666;
+    font-weight: 700;
+    margin-right: 10px;
+}
+.gift-exchange-box .profile-details-area .item:nth-child(2) .top .title span{
+    height: 28px;
+    width: 28px;
+    display: block;
+}
+.gift-exchange-box .profile-details-area .item:nth-child(2) .top .id-copy-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ffffff;
+    border-radius: 56px;
+    min-width: 205px;
+    padding: 7px 15px;
+}
+.gift-exchange-box .profile-details-area .item:nth-child(2) .top .id-copy-box p{
+    font-size: 13px;
+    font-weight: 400;
+    color: #666666;
+}
+.gift-exchange-box .profile-details-area .item:nth-child(2) .top .id-copy-box button{
+    background: none;
+    padding: 0;
+    margin: 0;
+}
+.gift-exchange-box .profile-details-area .item:nth-child(2) .top .id-copy-box button  img{
+    width: 40px;
+    margin-bottom: -10px;
+}
+.gift-exchange-box .profile-details-area .item:nth-child(2) .middle{
+    column-gap: 10px;
+}
+.gift-exchange-box .profile-details-area .item:nth-child(2) .middle img{
+    width: 24px;
+    height: 24px;
+}
+.gift-exchange-box .profile-details-area .item:nth-child(2) .middle h1{
+    color: #FCAA17;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.gift-exchange-box .profile-details-area .item:nth-child(2) .bottom span:nth-child(1){
+    font-size: 13px;
+    font-weight: 400;
+    color: #666666;
+    margin-right: 10px;
+}
+.gift-exchange-box .profile-details-area .item:nth-child(2) .bottom span:nth-child(2){
+    font-size: 12px;
+    font-weight: 400;
+    color: #0487D9;
+}
+.gift-exchange-box .profile-details-area .item:nth-child(2) button{
+    font-weight: 700;
+    font-size: 12px;
+    color: #ffffff;
+    background: #4ABC96;
+    padding: 7px 15px ;
+    border-radius: 56px;
+    transition: .4s ease;
+  margin-top: 20px;
+}
+.gift-exchange-box .profile-details-area .item:nth-child(2) button:hover{
+    background: #04724d;
+}
+
+.gift-exchange-box .profile-details-area .item:nth-child(3) button{
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+    background: #F26F21;
+    padding: 10px 20px;
+    transition: .4s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+}
+.gift-exchange-box .profile-details-area .item:nth-child(3) button:hover{
+    background: #a13d02;
+}
+.gift-exchange-box .profile-details-area .item:nth-child(3) button img{
+    width: 18px;
+    margin-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+/* mission page end */

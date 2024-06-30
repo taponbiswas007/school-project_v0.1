@@ -1,6 +1,21 @@
+@media screen and (max-width: 1300px){
+    .mission-page-main-area{
+        padding: 0;
+    }
+}
 @media screen and (max-width: 1200px) {
     .event-main-area{
         padding: 0 0;
+    }
+    .gift-exchange-box .profile-details-area {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .gift-exchange-box .profile-details-area .item:nth-child(3){
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 20px;
+        width: 100%;
     }
 }
 @media screen and (max-width: 1080px) {
@@ -18,6 +33,12 @@
         font-size: 18px;
         line-height: 22px;
     }
+    .gift-exchange-box .profile-details-area .item:nth-child(2) .top{
+        margin: 20px 0;
+        flex-direction: column;
+        row-gap: 10px;
+        align-items: flex-start !important;
+    }
 }
 @media screen and (max-width: 767px) {
     .event-hero-area{
@@ -32,6 +53,14 @@
         row-gap: 20px;
         justify-content: space-between;
     }
+   
+    .gift-exchange-box .profile-details-area .item:nth-child(2) .top{
+        margin: 20px  0;
+        flex-direction: row;
+        row-gap: 10px;
+        align-items: center !important;
+    }
+    
 }
 @media screen and (max-width: 576px) {
     .event-hero-area{
@@ -61,6 +90,12 @@
 @media screen and (max-width: 440px) {
     .event-hero-area{
         padding: 15px 10px;
+    }
+    .gift-exchange-box .profile-details-area .item:nth-child(2) .top{
+        margin: 20px 0;
+        flex-direction: column;
+        row-gap: 10px;
+        align-items: flex-start !important;
     }
    
 }
