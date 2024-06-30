@@ -45,6 +45,9 @@ table {
     font-family: "Mulish", sans-serif;
     padding: 77px 90px;
 }
+.event-header{
+    margin-bottom: 11px;
+}
 .event-header h1{
     font-size: 12px;
     line-height: 16px;
@@ -58,7 +61,7 @@ table {
     color: #ffffff;
     background: #4ABC96;
     border-radius: 30px;
-    padding: 5px 25px;
+    padding: 8px 25px;
     border: none;
 }
 .event-hero-area{
@@ -82,10 +85,114 @@ table {
     column-gap: 10px;
     row-gap: 10px;
     flex-wrap: wrap;
+    margin-top: 14px;
 }
 .event-hero-area .inner .participant-area .item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+    flex-direction: column;
+}
+.event-hero-area .inner .participant-area .item .images{
     height: 84px;
     width: 84px;
     border-radius: 50%;
     overflow: hidden;
+}
+.event-hero-area .inner .participant-area .item span{
+    font-size: 18px;
+    font-weight: 900;
+    text-transform: capitalize;
+    color: #5b5b5b;
+}
+.event-hero-area .inner h1{
+    font-size: 21px;
+    font-weight: 900;
+    text-align: center;
+    margin: 30px 0 20px 0;
+    color: #424242;
+    line-height: 25px;
+}
+.event-hero-area .inner p{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    color: #424242;
+    line-height: 21px;
+}
+.event-hero-area  .event-conter-area{
+    margin-top: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.event-hero-area  .event-conter-area button{
+   color: #ffffff;
+   font-size: 18px;
+   font-weight: 900;
+   text-transform: capitalize;
+   padding: 15px 40px;
+   border-radius: 30px;
+   border: 3px solid #ffffff;
+   box-shadow: 3px 6px 11px rgba(0, 0, 0, 0.7);
+   background: linear-gradient(to right top, #73ADF3 1%, #FF9A9B 26%, #FF50B7 64%);
+
+}
+.event-hero-area  .event-conter-area .event-remaining-counter{
+    display: flex;
+    justify-content: flex-start;
+    column-gap: 10px;
+    align-items: center;
+}
+.event-hero-area  .event-conter-area .event-remaining-counter .counter-item{
+    display: flex;
+    justify-content: center;
+    row-gap: 7px;
+    flex-direction: column;
+    align-items: center;
+}
+.event-hero-area  .event-conter-area .event-remaining-counter .counter-item .count-number{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+ 
+    box-shadow: 0 0 2px #818181;
+    color: #5b5b5b;
+    font-weight: 900;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 26px;
+    
+}
+.event-hero-area  .event-conter-area .event-remaining-counter .counter-item .count-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #5b5b5b;
+    font-weight: 500;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 16px;
+    text-transform: capitalize;
+    
+}
+.eventdata-table h1{
+    font-size: 40px;
+    font-weight: 700;
+    color: #0487D9;
+    font-family: 'dongle';
+    text-align: center;
+    margin-top: 30px;
+    line-height: 22px;
+}
+.eventdata-table p{
+    font-size: 32px;
+    font-weight: 700;
+    color: #515151;
+    font-family: 'dongle';
+    text-align: center;
+    margin-bottom: 40px;
 }
