@@ -210,6 +210,7 @@ table {
 }
 .table-container {
     max-height: 500px;
+    width: 100%;
     overflow-y: auto;
     position: relative;
 }
@@ -217,6 +218,8 @@ table {
 table {
     border-collapse: collapse;
     width: 100%;
+    min-width: 540px;
+    overflow-x: scroll;
 }
 
 th, td {
@@ -276,7 +279,17 @@ td:first-child, th:first-child {
     background: #ffffff;
     z-index: 1;
 }
-
+th:last-child{
+    text-align: end;
+    padding-right: 74px;
+}
+td:last-child{
+    text-align: end !important;
+    padding-right: 20px;
+}
+td:last-child ul{
+    justify-content: flex-end;
+}
 tr:last-child td {
     border-bottom: none;
 }
@@ -284,6 +297,7 @@ tr:last-child td {
 /* Custom scrollbar */
 .table-container::-webkit-scrollbar {
     width: 6px;
+    height: 6px;
 }
 
 .table-container::-webkit-scrollbar-track {
@@ -311,6 +325,7 @@ tr:last-child td {
 
 .table-container::-ms-scrollbar {
     width: 6px;
+    height: 6px;
     background: #f1f1f1;
 }
 
