@@ -17,12 +17,22 @@
         margin-top: 20px;
         width: 100%;
     }
+    .progress-line-area .progress-line .progress-awerd-item-list .progress-awerd .star-quantity-box .item{
+        width: 120px;
+    }
 }
 @media screen and (max-width: 1080px) {
     .event-hero-area .event-conter-area{
         flex-direction: column;
         row-gap: 20px;
         justify-content: center;
+    }
+    .progress-line-area .progress-line .progress-awerd-item-list .progress-awerd .star-quantity-box .item{
+        width: 100px;
+    }
+    .progress-line-area .progress-line .progress-awerd-item-list .progress-awerd .star-quantity-box .item p{
+        font-size: 15px;
+        line-height: 22px;
     }
 }
 @media screen and (max-width: 991px) {
@@ -38,6 +48,24 @@
         flex-direction: column;
         row-gap: 10px;
         align-items: flex-start !important;
+    }
+    .progress-line-area .progress-line .progress-awerd-item-list .progress-awerd{
+        width: 40px;
+        height: 40px;
+    }
+    .progress-line-area .progress-line .progress-awerd-item-list .progress-awerd img{
+        width: 15px;
+        
+    }
+    .progress-line-area .progress-line .progress-awerd-item-list .progress-awerd .star-quantity-box .item{
+        width: 81px;
+    }
+    .progress-line-area .progress-line .progress-awerd-item-list .progress-awerd .star-quantity-box .item p{
+        font-size: 13px;
+        line-height: 18px;
+    }
+    .progress-line-area .progress-line .progress-awerd-item-list .progress-awerd .star-quantity-box .item h1{
+        font-size: 15px;
     }
 }
 @media screen and (max-width: 767px) {
@@ -60,6 +88,24 @@
         row-gap: 10px;
         align-items: center !important;
     }
+    .progress-line-area .progress-line .progress-awerd-item-list .progress-awerd{
+        width: 56px;
+        height: 56px;
+    }
+    .progress-line-area .progress-line .progress-awerd-item-list .progress-awerd img{
+        width: 20px;
+        
+    }
+    .progress-line-area .progress-line .progress-awerd-item-list .progress-awerd .star-quantity-box .item{
+        width: 130px;
+    }
+    .progress-line-area .progress-line .progress-awerd-item-list .progress-awerd .star-quantity-box .item p{
+        font-size: 15px;
+        line-height: 18px;
+    }
+    .progress-line-area .progress-line .progress-awerd-item-list .progress-awerd .star-quantity-box .item h1{
+        font-size: 16px;
+    }
     
 }
 @media screen and (max-width: 576px) {
@@ -75,6 +121,9 @@
     .event-hero-area{
         padding: 20px 20px;
     }
+    .progress-line-area .progress-line .progress-awerd-item-list .progress-awerd .star-quantity-box .item{
+        width: 110px;
+    }
    
 }
 @media screen and (max-width: 481px) {
@@ -85,6 +134,17 @@
         flex-direction: column;
         row-gap: 20px;
         justify-content: center;
+    }
+    .progress-line-area .progress-line .progress-awerd-item-list .progress-awerd{
+        width: 40px;
+        height: 40px;
+    }
+    .progress-line-area .progress-line .progress-awerd-item-list .progress-awerd img{
+        width: 15px;
+        
+    }
+    .progress-line-area .progress-line .progress-awerd-item-list .progress-awerd .star-quantity-box .item{
+        width: 100px;
     }
 }
 @media screen and (max-width: 440px) {
@@ -97,11 +157,29 @@
         row-gap: 10px;
         align-items: flex-start !important;
     }
-   
+    .progress-line-area .progress-line .progress-awerd-item-list .progress-awerd .star-quantity-box .item{
+        width: 81px;
+    }
+    .progress-line-area .progress-line .progress-awerd-item-list .progress-awerd .star-quantity-box .item p{
+        font-size: 13px;
+        line-height: 18px;
+    }
+    .progress-line-area .progress-line .progress-awerd-item-list .progress-awerd .star-quantity-box .item h1{
+        font-size: 15px;
+    }
 }
 @media screen and (max-width: 376px) {
     .event-hero-area{
         padding: 15px 10px;
     }
-   
+    .progress-line-area .progress-line .progress-awerd-item-list .progress-awerd .star-quantity-box .item{
+        width: 70px;
+    }
+    .progress-line-area .progress-line .progress-awerd-item-list .progress-awerd .star-quantity-box .item p{
+        font-size: 12px;
+        line-height: 17px;
+    }
+    .progress-line-area .progress-line .progress-awerd-item-list .progress-awerd .star-quantity-box .item h1{
+        font-size: 14px;
+    }
 }

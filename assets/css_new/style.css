@@ -128,12 +128,15 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
-button{
+
+button {
     border: none;
 }
-.active{
+
+.active {
     color: #3D92D1 !important;
 }
+
 /* event page start */
 .event-main-area {
     font-family: "Mulish", sans-serif;
@@ -477,16 +480,18 @@ tr:last-child td {
 /* ------------------------------------------------------------------------- */
 
 /* mission page start */
-.mission-page-main-area{
+.mission-page-main-area {
     font-family: "Mulish", sans-serif;
     padding: 0 50px;
 }
-.mission-page-main-area h1{
+
+.mission-page-main-area h1 {
     font-size: 12px;
     font-weight: 400;
     color: #505050;
 }
-.mission-page-main-area .balance-bar{
+
+.mission-page-main-area .balance-bar {
     margin: 18px 0;
     display: flex;
     justify-content: space-between;
@@ -496,57 +501,65 @@ tr:last-child td {
     row-gap: 20px;
 }
 
-.mission-page-main-area .balance-bar .balance-item ul{
+.mission-page-main-area .balance-bar .balance-item ul {
     display: flex;
     justify-content: flex-start;
     align-items: center;
     column-gap: 12px;
 
 }
-.mission-page-main-area .balance-bar .balance-item ul li{
+
+.mission-page-main-area .balance-bar .balance-item ul li {
     display: inline-block;
 }
-.mission-page-main-area .balance-bar .balance-item ul li:nth-child(1){
+
+.mission-page-main-area .balance-bar .balance-item ul li:nth-child(1) {
     height: 25px;
     width: 25px;
 
 }
-.mission-page-main-area .balance-bar .balance-item ul li:nth-child(2){
+
+.mission-page-main-area .balance-bar .balance-item ul li:nth-child(2) {
     font-size: 14px;
     font-weight: 900;
     color: #626262;
 }
-.mission-page-main-area .balance-bar .balance-item ul li:nth-child(3){
+
+.mission-page-main-area .balance-bar .balance-item ul li:nth-child(3) {
     font-size: 14px;
     font-weight: 400;
     color: #626262;
 }
-.gift-exchange-box{
+
+.gift-exchange-box {
     background: #FEFCEF;
     border-radius: 10px;
     padding: 18px;
 }
 
-.gift-exchange-box .profile-details-area .item:nth-child(1) img{
+.gift-exchange-box .profile-details-area .item:nth-child(1) img {
     width: 106px;
     height: 106px;
 }
 
-.gift-exchange-box .profile-details-area .item:nth-child(2) .top{
+.gift-exchange-box .profile-details-area .item:nth-child(2) .top {
     column-gap: 10px;
 }
-.gift-exchange-box .profile-details-area .item:nth-child(2) .top .title h1{
+
+.gift-exchange-box .profile-details-area .item:nth-child(2) .top .title h1 {
     font-size: 20px;
     color: #666666;
     font-weight: 700;
     margin-right: 10px;
 }
-.gift-exchange-box .profile-details-area .item:nth-child(2) .top .title span{
+
+.gift-exchange-box .profile-details-area .item:nth-child(2) .top .title span {
     height: 28px;
     width: 28px;
     display: block;
 }
-.gift-exchange-box .profile-details-area .item:nth-child(2) .top .id-copy-box{
+
+.gift-exchange-box .profile-details-area .item:nth-child(2) .top .id-copy-box {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -555,59 +568,73 @@ tr:last-child td {
     min-width: 205px;
     padding: 7px 15px;
 }
-.gift-exchange-box .profile-details-area .item:nth-child(2) .top .id-copy-box p{
+
+.gift-exchange-box .profile-details-area .item:nth-child(2) .top .id-copy-box p {
     font-size: 13px;
     font-weight: 400;
     color: #666666;
 }
-.gift-exchange-box .profile-details-area .item:nth-child(2) .top .id-copy-box button{
+
+.gift-exchange-box .profile-details-area .item:nth-child(2) .top .id-copy-box button {
     background: none;
     padding: 0;
     margin: 0;
 }
-.gift-exchange-box .profile-details-area .item:nth-child(2) .top .id-copy-box button  img{
+
+.gift-exchange-box .profile-details-area .item:nth-child(2) .top .id-copy-box button img {
     width: 40px;
     margin-bottom: -10px;
 }
-.gift-exchange-box .profile-details-area .item:nth-child(2) .middle{
+
+.gift-exchange-box .profile-details-area .item:nth-child(2) .middle {
     column-gap: 10px;
 }
-.gift-exchange-box .profile-details-area .item:nth-child(2) .middle img{
+
+.gift-exchange-box .profile-details-area .item:nth-child(2) .middle img {
     width: 24px;
     height: 24px;
 }
-.gift-exchange-box .profile-details-area .item:nth-child(2) .middle h1{
+
+.gift-exchange-box .profile-details-area .item:nth-child(2) .middle h1 {
     color: #FCAA17;
     font-weight: 700;
     font-size: 20px;
-    margin-bottom: 10px;
+
 }
-.gift-exchange-box .profile-details-area .item:nth-child(2) .bottom span:nth-child(1){
+
+.gift-exchange-box .profile-details-area .item:nth-child(2) .bottom {
+    margin-top: 15px;
+}
+
+.gift-exchange-box .profile-details-area .item:nth-child(2) .bottom span:nth-child(1) {
     font-size: 13px;
     font-weight: 400;
     color: #666666;
     margin-right: 10px;
 }
-.gift-exchange-box .profile-details-area .item:nth-child(2) .bottom span:nth-child(2){
+
+.gift-exchange-box .profile-details-area .item:nth-child(2) .bottom span:nth-child(2) {
     font-size: 12px;
     font-weight: 400;
     color: #0487D9;
 }
-.gift-exchange-box .profile-details-area .item:nth-child(2) button{
+
+.gift-exchange-box .profile-details-area .item:nth-child(2) button {
     font-weight: 700;
     font-size: 12px;
     color: #ffffff;
     background: #4ABC96;
-    padding: 7px 15px ;
+    padding: 7px 15px;
     border-radius: 56px;
     transition: .4s ease;
-  margin-top: 20px;
+    margin-top: 20px;
 }
-.gift-exchange-box .profile-details-area .item:nth-child(2) button:hover{
+
+.gift-exchange-box .profile-details-area .item:nth-child(2) button:hover {
     background: #04724d;
 }
 
-.gift-exchange-box .profile-details-area .item:nth-child(3) button{
+.gift-exchange-box .profile-details-area .item:nth-child(3) button {
     color: #ffffff;
     font-size: 14px;
     font-weight: 700;
@@ -619,68 +646,297 @@ tr:last-child td {
     align-items: center;
     border-radius: 50px;
 }
-.gift-exchange-box .profile-details-area .item:nth-child(3) button:hover{
+
+.gift-exchange-box .profile-details-area .item:nth-child(3) button:hover {
     background: #a13d02;
 }
-.gift-exchange-box .profile-details-area .item:nth-child(3) button img{
+
+.gift-exchange-box .profile-details-area .item:nth-child(3) button img {
     width: 18px;
     margin-right: 10px;
 }
-.gift-exchange-box .coin-collect-area{
-    background:  #ffffff;
+
+.gift-exchange-box .coin-collect-area {
+    background: #ffffff;
     padding: 6px 7px 10px 7px;
     border-radius: 5px;
+    column-gap: 7px;
+    margin-top: 30px;
+    overflow-x: auto;
 }
-.gift-exchange-box .coin-collect-area .day-list-item .coinrreceived-btn{
-   
+
+.gift-exchange-box .coin-collect-area .day-list-item .coinrreceived-btn {
+    background: #F26F21;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 400;
+    width: 100%;
+    padding: 5px;
+    border-radius: 4px;
+    transition: .3s all;
 }
-.gift-exchange-box .coin-collect-area .day-list-item .content-area{
+
+.gift-exchange-box .coin-collect-area .day-list-item .coinrreceived-btn:hover {
+    background: #a33f05;
+}
+
+.gift-exchange-box .coin-collect-area .day-list-item .content-area {
     height: 85px;
     width: 99px;
     border-radius: 5px;
     background: #F9F9F9;
     flex-direction: column;
-    row-gap: 10px;  
+    row-gap: 10px;
 }
-.gift-exchange-box .coin-collect-area .day-list-item .content-area .checked{
+
+.gift-exchange-box .coin-collect-area .day-list-item .content-area .checked {
     display: none;
 }
-.gift-exchange-box .coin-collect-area .day-list-item .content-area h2{
+
+.gift-exchange-box .coin-collect-area .day-list-item .content-area h2 {
     color: #FCAA17;
     font-weight: 700;
     font-size: 20px;
 }
-.gift-exchange-box .coin-collect-area .day-list-item .content-area img{
+
+.gift-exchange-box .coin-collect-area .day-list-item .content-area img {
     width: 40px;
 }
-.gift-exchange-box .coin-collect-area .day-list-item p{
+
+.gift-exchange-box .coin-collect-area .day-list-item p {
     text-align: center;
     color: #797979;
     font-size: 12px;
     font-weight: 400;
     margin-top: 8px;
 }
-.gift-exchange-box .coin-collect-area .coin-received .content-area .notchecked{
+
+.gift-exchange-box .coin-collect-area .day-list-item .coinrreceived-btn {
+    display: none;
+}
+
+.gift-exchange-box .coin-collect-area .coin-received .content-area .notchecked {
     display: none !important;
 }
-.gift-exchange-box .coin-collect-area .coin-received .content-area .checked{
+
+.gift-exchange-box .coin-collect-area .coin-received .content-area .checked {
     display: block !important;
 }
-.gift-exchange-box .coin-collect-area .active-day .content-area{
+
+.gift-exchange-box .coin-collect-area .active-day .content-area {
     background: #FEFCEF;
     border: 1px solid #4ABC96;
 }
-.gift-exchange-box .coin-collect-area .active-day .content-area .checked{
+
+.gift-exchange-box .coin-collect-area .active-day .content-area .checked {
     display: none !important;
 }
-.gift-exchange-box .coin-collect-area .active-day .content-area .notchecked{
+
+.gift-exchange-box .coin-collect-area .active-day .coinrreceived-btn {
+    display: block !important;
+    margin-top: 7px;
+}
+
+.gift-exchange-box .coin-collect-area .active-day .dayname {
+    display: none !important;
+}
+
+.gift-exchange-box .coin-collect-area .active-day .content-area .notchecked {
     display: block !important;
 }
 
+.progress-line-area {
+    margin-top: 35px;
+}
 
+.progress-line-area h1 {
+    color: #F26F21;
+    font-size: 18px;
+    font-weight: 700;
+}
 
+.progress-line-area h1 img {
+    width: 15px;
+}
 
+.progress-line-area .progress-line {
+    margin-top: 8px;
+    position: relative;
+}
 
+.progress-line-area .progress-line .progress-default-line {
+    width: 100%;
+    height: 5px;
+    background: #C6C6C6;
+    border-radius: 12px;
+}
+
+.progress-line-area .progress-line .progress-awerd-item-list {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 2;
+    padding: 0 10%;
+
+}
+
+.progress-line-area .progress-line .progress-awerd-item-list .progress-awerd {
+    height: 56px;
+    width: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+
+}
+
+.progress-line-area .progress-line .progress-awerd-item-list .progress-awerd .star-quantity-box {
+    position: relative;
+}
+
+.progress-line-area .progress-line .progress-awerd-item-list .progress-awerd .star-quantity-box .item {
+    position: absolute;
+    bottom: -144px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 150px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.progress-line-area .progress-line .progress-awerd-item-list .progress-upcomming-awerd {
+    border: 2px solid #C6C6C6;
+    background: #ffffff;
+}
+
+.progress-line-area .progress-line .progress-awerd-item-list .progress-awerd-received {
+    background: #4ABC96;
+    border: 2px solid #F26F21;
+}
+
+.progress-line-area .progress-line .progress-complete-line {
+    height: 5px;
+    background: #F26F21;
+    border-radius: 12px;
+    width: 25%;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    position: absolute;
+    z-index: 1;
+}
+
+.progress-line-area .progress-line .qualify-start-quantity-list {
+    position: absolute;
+    bottom: -85px;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 2;
+    padding: 0 5%;
+}
+
+.progress-line-area .progress-line .progress-awerd-item-list .progress-awerd .star-quantity-box .item {
+    cursor: pointer;
+}
+
+.progress-line-area .progress-line .progress-awerd-item-list .progress-awerd .star-quantity-box .item h1 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #FFC850;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.progress-line-area .progress-line .progress-awerd-item-list .progress-awerd .star-quantity-box .item h1 img {
+    width: 15px;
+}
+
+.progress-line-area .progress-line .progress-awerd-item-list .progress-awerd .star-quantity-box .item p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #626262;
+    text-align: center;
+    line-height: 22px;
+}
+
+.get-awerd-popup {
+    position: relative;
+    display: none;
+}
+
+.get-awerd-popup .get-awerd-popup-main-area {
+    position: absolute;
+    background: #F5F5F5;
+    width: 250px;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 10px;
+    z-index: 2;
+}
+
+.get-awerd-popup .get-awerd-popup-main-area .inner {
+    position: relative;
+    padding: 40px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.get-awerd-popup .get-awerd-popup-main-area .inner .indicator-icon {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 20px solid #F5F5F5;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+.get-awerd-popup .get-awerd-popup-main-area .inner h3 {
+    color: #626262;
+    font-family: 16px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-align: left;
+    margin-right: 20px;
+}
+
+.get-awerd-popup .get-awerd-popup-main-area .inner button {
+    font-size: 14px;
+    color: #ffffff;
+    background: #4ABC96;
+    padding: 10px 20px;
+    border-radius: 35px;
+    transition: .3s all;
+}
+
+.get-awerd-popup .get-awerd-popup-main-area .inner button:hover {
+    background: #0f7955;
+}
+
+.description {
+    font-size: 16px;
+    color: #4ABC96;
+    font-weight: 700;
+    margin-top: 140px;
+    line-height: 21px;
+}
 
 
 /* mission page end */
