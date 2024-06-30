@@ -1,0 +1,1540 @@
+/* XL Device :1200px. */
+@media (min-width: 1250px) and (max-width: 1600px) {
+
+	.heaedr__menu ul li {
+		display: inline-block;
+		margin-right: 38px;
+	}
+
+
+	/* FPT training center start here */
+
+	.button__group a {
+		padding: 6px 15px;
+	}
+
+	#training__center {
+		padding: 30px 24px 58px;
+	}
+
+	.comment__box {
+		padding: 19px 20px 23px;
+	}
+
+	.comment__connect {
+		left: 48px;
+	}
+
+	/* FPT training center end here */
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* XL Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1449px) {
+
+
+
+	.heaedr__menu ul li {
+		margin-right: 20px;
+	}
+
+	.heaedr__menu {
+		margin-right: 20px;
+	}
+
+	.heaedr__menu ul li a {
+		font-size: 15px;
+		line-height: 20.08px;
+	}
+
+	.header__logmo {
+		max-width: 180px;
+	}
+
+	.filter {
+		padding-top: 150px;
+		padding-bottom: 260px;
+	}
+
+	.filter__single__box.chon__select .nice-select {
+		padding-left: 14px !important;
+		border-radius: 104px;
+		width: 100%;
+		font-size: 14px;
+	}
+
+	.filter__single__box .nice-select {
+		font-size: 14px;
+		line-height: 20.08px;
+	}
+
+	.storie__img {
+		max-width: 100%;
+	}
+
+	.memori__img img {
+		max-width: 530px;
+	}
+
+	.rank__ri__top h4 {
+		font-size: 30px;
+		line-height: 40px;
+	}
+
+	.rank__ri__top img {
+		max-width: 430px;
+	}
+
+
+
+
+	/* search school responsive */
+
+	.card__text {
+		width: 56%;
+	}
+
+	.btn__submit {
+		width: 80%;
+	}
+
+	.card__rating span {
+		margin-right: 5px;
+	}
+
+	/* search school responsive */
+
+
+
+
+	/* FPT training center start here */
+
+	.button__group a {
+		padding: 6px 15px;
+		font-size: 13px;
+	}
+
+	.download__link a {
+		padding: 10px 15px;
+	}
+
+	#training__center {
+		padding: 30px 24px 58px;
+	}
+
+	.comment__box {
+		padding: 19px 20px 23px;
+	}
+
+	.comment__connect {
+		left: 48px;
+	}
+
+	.comment__box .owner__info .owner__img img {
+		min-width: 45px;
+	}
+
+	.fpt__area .rightBar__sticky {
+		min-width: 210px;
+	}
+
+	.fpt__area .rightBar__sticky {
+		min-width: 210px;
+	}
+
+	.chat__member {
+		flex-direction: column;
+		align-items: start !important;
+	}
+
+	/* FPT training center end here */
+
+
+
+	/* bot page start here */
+
+	.src__content {
+		padding: 40px 40px;
+	}
+	.extra__clients {
+		left: 10px;
+	}
+
+	/* bot page end here */
+
+
+}
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+	.heaedr__menu ul li {
+		margin-right: 20px;
+	}
+
+	.heaedr__menu {
+		margin-right: 20px;
+		display: none;
+	}
+
+	.heaedr__menu ul li a {
+		font-size: 15px;
+		line-height: 20.08px;
+	}
+
+	.header__logmo {
+		max-width: 180px;
+	}
+
+	.filter {
+		padding-top: 150px;
+		padding-bottom: 260px;
+	}
+
+	.filter__single__box.chon__select .nice-select {
+		padding-left: 14px !important;
+		border-radius: 104px;
+		width: 100%;
+		font-size: 14px;
+	}
+
+	.filter__single__box .nice-select {
+		font-size: 14px;
+		line-height: 20.08px;
+	}
+
+	.header__profile {
+		margin-right: 20px;
+	}
+
+	.storie__img {
+		max-width: 100%;
+	}
+
+	.memori__img img {
+		max-width: 530px;
+	}
+
+	.rank__ri__top h4 {
+		font-size: 30px;
+		line-height: 40px;
+		text-align: center;
+	}
+
+	.rank__ri__top img {
+		max-width: 100%;
+	}
+
+	.filter__single__box {
+		width: 24%;
+	}
+
+	.filter__inp {
+		width: 85%;
+		margin-top: 15px;
+	}
+
+	.filter__single__box.chon__select {
+		width: 24%;
+	}
+
+	.filter__btn {
+		margin-top: 15px;
+	}
+
+	.batch_tx p {
+		font-size: 16px;
+	}
+
+	.batch_tx p img {
+		max-width: 20px;
+		margin-right: 10px;
+	}
+
+	.rank__ri__top {
+		display: block;
+		padding: 15px;
+	}
+
+	.rank__ri__top h4 br {
+		display: none;
+	}
+
+	.rank__star__single {
+		width: 100%;
+		padding-bottom: 10px;
+		padding-top: 9px;
+		padding-left: 30px;
+		padding-right: 24px;
+	}
+
+	.list__single__box ul li a {
+		font-size: 16px;
+		line-height: 33.08px;
+	}
+
+	.list__area {
+		padding: 70px 0;
+	}
+
+	.header__bar {
+		display: block;
+	}
+
+
+
+
+
+	/* search school responsive */
+
+	.src__content {
+		width: 60%;
+		padding: 20px;
+	}
+
+	.src__card-img {
+		width: 55%;
+		aspect-ratio: 1;
+		object-fit: cover;
+	}
+
+	.card__text h3 {
+		margin-bottom: 130px;
+	}
+
+	.btn__submit {
+		width: 85%;
+	}
+
+	.search__button button {
+		width: 130px;
+	}
+
+	.sideBar__left {
+		width: 40%;
+	}
+
+
+
+	.sideBar__right {
+		padding: 15px 10px;
+	}
+
+	.src__card {
+		width: 100%;
+	}
+
+	/* search school responsive */
+
+
+
+	/* FPT training center start here */
+
+	#training__center {
+		padding: 10px 15px 0px;
+	}
+
+	.training__button {
+		flex-direction: column;
+		margin-bottom: 20px;
+	}
+
+	.button__group a {
+		padding: 6px 20px;
+	}
+
+	.story__posting {
+		padding: 10px;
+	}
+
+	.profile__text a {
+		font-size: 30px;
+	}
+
+	.comment__box .owner__info .owner__img img {
+		min-width: 45px;
+	}
+
+	.member__text a {
+		font-size: 14px;
+	}
+
+	.member__text p {
+		font-size: 14px;
+	}
+
+	.chat__member {
+		flex-direction: column;
+		align-items: start !important;
+	}
+
+	.group__btn a {
+		padding: 10px 15px;
+	}
+
+	.fpt__area .rightBar__sticky {
+		min-width: auto;
+	}
+
+	/* FPT training center end here */
+
+
+
+	/* bot page start here */
+
+	.extra__clients {
+		left: 0;
+		top: 0;
+	}
+	.profile___button {
+		padding: 0 10px;
+	}
+	.single__btn a {
+		width: 100%;
+	}
+	.profile___button .button__group {
+		flex-direction: column;
+		gap: 15px;
+	}
+	.profile___button .button__group a {
+		width: 100%;
+	}
+	.bot__page .src__content {
+		width: 54.5%;
+	}
+	/* bot page end here */
+
+
+
+}
+
+
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+
+
+	.heaedr__menu ul li {
+		margin-right: 20px;
+	}
+
+	.heaedr__menu {
+		margin-right: 20px;
+		display: none;
+	}
+
+	.heaedr__menu ul li a {
+		font-size: 15px;
+		line-height: 20.08px;
+	}
+
+	.header__logmo {
+		max-width: 180px;
+	}
+
+	.header__profile {
+		margin-right: 20px;
+	}
+
+	.filter {
+		padding-top: 100px;
+		padding-bottom: 100px;
+	}
+
+	.filter__single__box.chon__select .nice-select {
+		padding-left: 14px !important;
+		border-radius: 104px;
+		width: 100%;
+		font-size: 14px;
+	}
+
+	.filter__single__box .nice-select {
+		font-size: 14px;
+		line-height: 20.08px;
+	}
+
+	.storie__img {
+		max-width: 100%;
+		width: 100%;
+	}
+
+	.memori__img img {
+		max-width: 530px;
+	}
+
+	.rank__ri__top h4 {
+		font-size: 30px;
+		line-height: 40px;
+		text-align: center;
+	}
+
+	.rank__ri__top img {
+		max-width: 100%;
+		display: flex;
+		justify-content: center;
+		margin: auto;
+	}
+
+	.filter__single__box {
+		width: 24%;
+	}
+
+	.filter__inp {
+		width: 76%;
+		margin-top: 15px;
+	}
+
+	.filter__single__box.chon__select {
+		width: 24%;
+	}
+
+	.filter__btn {
+		margin-top: 15px;
+		width: 21%;
+	}
+
+	.batch_tx p {
+		font-size: 16px;
+	}
+
+	.batch_tx p img {
+		max-width: 20px;
+		margin-right: 10px;
+	}
+
+	.rank__ri__top {
+		display: block;
+		padding: 15px;
+	}
+
+	.rank__ri__top h4 br {
+		display: none;
+	}
+
+	.rank__star__single {
+		width: 100%;
+		padding-bottom: 10px;
+		padding-top: 9px;
+		padding-left: 30px;
+		padding-right: 24px;
+	}
+
+	.list__single__box ul li a {
+		font-size: 16px;
+		line-height: 33.08px;
+	}
+
+	.list__area {
+		padding: 70px 0;
+		padding-bottom: 50px;
+	}
+
+	.header__bar {
+		display: block;
+	}
+
+	.rank__vwrap {
+		display: block;
+	}
+
+	.rank__lf {
+		width: 70%;
+		margin: auto;
+	}
+
+	.rank__ri {
+		width: 100%;
+		margin-top: 30px;
+	}
+
+	.memori__wrap {
+		display: block;
+	}
+
+	.memori__img {
+		margin: auto;
+		width: 85%;
+		justify-content: center;
+		margin-bottom: 40px;
+	}
+
+	.memori__ri {
+		width: 100%;
+	}
+
+	.list__single__box {
+		width: 30%;
+		margin-bottom: 20px;
+	}
+
+	.list__wrap {
+		flex-wrap: wrap;
+	}
+
+	.footer__menu {
+		width: 65%;
+	}
+
+
+
+	/* search school responsive */
+
+	.card__text {
+		width: 100%;
+		margin: 0;
+	}
+
+	.src__card {
+		width: 100%;
+	}
+
+	.src__card-img img {
+		width: 90%;
+	}
+
+	.card__rating span {
+		margin-right: 5px;
+	}
+
+	.src__content {
+		width: 50%;
+		padding: 20px;
+	}
+
+	.src__card-img {
+		width: 100%;
+	}
+
+	.card__text h3 {
+		margin-bottom: 65px;
+	}
+
+	.btn__submit {
+		width: 85%;
+	}
+
+	.search__button button {
+		width: 130px;
+	}
+
+	.sideBar__left {
+		width: 40%;
+		height: 155vh;
+	}
+
+	.fpt__area .rightBar__sticky {
+		width: 170px;
+		min-width: auto;
+	}
+
+	.sideBar__right {
+		padding: 15px 10px;
+	}
+
+	.search__top {
+		flex-direction: column;
+		align-items: start !important;
+		gap: 20px;
+	}
+
+	.search__bar {
+		width: 100%;
+		margin: 0;
+	}
+
+	.search__select {
+		width: 100%;
+	}
+
+	.search__select .nice-select {
+		width: 100%;
+	}
+
+	.search__button {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+	}
+
+	/* search school responsive */
+
+
+
+
+	/* FPT training start here */
+
+	#training__center {
+		width: 56%;
+		padding: 10px;
+	}
+
+	.message__post-box textarea {
+		padding: 10px;
+	}
+
+	.profile__text {
+		margin-left: 0;
+	}
+
+	.profile__text a {
+		font-size: 25px;
+		margin-top: 40px;
+		display: block;
+		line-height: 30px;
+	}
+
+	.figure__profile {
+		bottom: -50px;
+		left: 10px;
+	}
+
+	.figure__profile img {
+		width: 100px;
+	}
+
+	.button__group {
+		flex-direction: column;
+		width: 100%;
+		margin: 15px 0;
+	}
+
+	.button__group a {
+		width: 100%;
+		text-align: center;
+	}
+
+	.training__button {
+		flex-direction: column;
+	}
+
+	.single__button {
+		padding: 5px 0;
+	}
+
+	.download__link {
+		width: 100%;
+	}
+
+	.download__link a {
+		width: 100%;
+		margin-bottom: 20px;
+		text-align: center;
+	}
+
+	.training__holder a {
+		width: auto;
+	}
+
+	.training__holder {
+		top: 40px;
+	}
+
+	.story__posting {
+		padding: 10px;
+	}
+
+	.story__group {
+		display: flex;
+		align-items: center;
+	}
+
+	.find__group {
+		flex-direction: column;
+	}
+
+	.input__holder {
+		width: 100%;
+	}
+
+	.group__selection .nice-select {
+		width: 100%;
+	}
+
+	.story__container {
+		flex-direction: column;
+	}
+
+	.story__content {
+		width: 100%;
+	}
+
+	.owner__more img {
+		width: 25px;
+	}
+
+	.owner__img {
+		min-width: 45px !important;
+		margin-right: 5px;
+	}
+
+	.post__bottom {
+		flex-direction: column;
+	}
+
+	.post__rating .single__rating {
+		margin-right: 15px;
+	}
+
+	.post__rating {
+		width: 100%;
+		margin: 10px 0;
+	}
+
+	.post__info h2 {
+		font-size: 18px;
+	}
+
+	.comment__box {
+		padding: 10px;
+	}
+
+	.owner__info.reply__box {
+		margin-left: 30px;
+	}
+
+	.post__text>div p {
+		font-size: 14px;
+	}
+
+	.post__text {
+		margin-left: 10px;
+	}
+
+	.comment__box .owner__info .owner__img img {
+		min-width: 45px !important;
+	}
+
+	.member__text a {
+		font-size: 14px;
+	}
+
+	.member__text p {
+		font-size: 14px;
+	}
+
+	.chat__member {
+		flex-direction: column;
+		align-items: start !important;
+	}
+
+	.group__btn a {
+		padding: 10px 15px;
+	}
+
+	/* FPT training center end here */
+
+
+
+	/* bot page start here */
+
+	.extra__clients {
+		display: none;
+	}
+	.profile___button {
+		padding: 0 10px;
+	}
+	.single__btn a {
+		width: 100%;
+	}
+	.profile___button .button__group {
+		flex-direction: column;
+		gap: 15px;
+	}
+	.profile___button .button__group a {
+		width: 100%;
+	}
+	.bot__page .src__content {
+		width: 48.5%;
+		padding: 15px;
+	}
+	.bot__page .sideBar__right {
+		max-width: 181px;
+	}
+
+	/* bot page end here */
+
+
+}
+
+
+
+
+
+
+
+
+
+
+/* SM Small Device :320px. */
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+
+	.heaedr__menu ul li {
+		margin-right: 20px;
+	}
+
+	.heaedr__menu {
+		margin-right: 20px;
+		display: none;
+	}
+
+	.header__icon {
+		display: none;
+	}
+
+	.header__language {
+		display: none;
+	}
+
+	.heaedr__menu ul li a {
+		font-size: 15px;
+		line-height: 20.08px;
+	}
+
+	.header__logmo {
+		max-width: 170px;
+	}
+
+	.filter {
+		padding-top: 60px;
+		padding-bottom: 60px;
+	}
+
+	.filter__single__box.chon__select .nice-select {
+		padding-left: 14px !important;
+		border-radius: 104px;
+		width: 100%;
+		font-size: 14px;
+	}
+
+	.filter__single__box .nice-select {
+		font-size: 14px;
+		line-height: 20.08px;
+	}
+
+	.storie__img {
+		max-width: 100%;
+		width: 100%;
+	}
+
+	.storie__img img {
+		width: 100%;
+	}
+
+	.memori__img img {
+		max-width: 100%;
+	}
+
+	.rank__ri__top h4 {
+		font-size: 30px;
+		line-height: 40px;
+		text-align: center;
+	}
+
+	.rank__ri__top img {
+		max-width: 100%;
+		display: flex;
+		justify-content: center;
+		margin: auto;
+	}
+
+	.filter__single__box {
+		width: 100%;
+		margin-bottom: 10px;
+	}
+
+	.filter__inp {
+		width: 100%;
+		margin-top: 0;
+	}
+
+	.filter__single__box.chon__select {
+		width: 100%;
+	}
+
+	.filter__btn {
+		margin-top: 15px;
+		width: 100%;
+	}
+
+	.batch_tx p {
+		font-size: 12px;
+	}
+
+	.batch_tx p img {
+		max-width: 15px;
+		margin-right: 8px;
+	}
+
+	.rank__ri__top {
+		display: block;
+		padding: 15px;
+	}
+
+	.rank__ri__top h4 br {
+		display: none;
+	}
+
+	.rank__star__single {
+		width: 100%;
+		padding-bottom: 10px;
+		padding-top: 9px;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	.rank__batch span {
+		font-size: 14px;
+		width: 30px;
+		height: 30px;
+	}
+
+	.rank__batch span img {
+		max-width: 20px;
+	}
+
+	.list__single__box ul li a {
+		font-size: 16px;
+		line-height: 33.08px;
+	}
+
+	.list__area {
+		padding: 70px 0;
+		padding-bottom: 50px;
+	}
+
+	.header__bar {
+		display: block;
+	}
+
+	.rank__vwrap {
+		display: block;
+	}
+
+	.rank__lf {
+		width: 100%;
+		margin: auto;
+	}
+
+	.rank__ri {
+		width: 100%;
+		margin-top: 30px;
+	}
+
+	.memori__wrap {
+		display: block;
+	}
+
+	.memori__img {
+		margin: auto;
+		width: 85%;
+		justify-content: center;
+		margin-bottom: 40px;
+	}
+
+	.memori__ri {
+		width: 100%;
+	}
+
+	.list__single__box {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+
+	.list__wrap {
+		flex-wrap: wrap;
+	}
+
+	.footer__menu {
+		width: 100%;
+	}
+
+	.header__profile {
+		display: block;
+	}
+
+	.filter__wrap h6 {
+		font-size: 25px;
+		line-height: 25px;
+		margin-bottom: 20px;
+	}
+
+	.rank__single__box {
+		height: 200px;
+		margin-bottom: 20px;
+	}
+
+
+	.get__star p {
+		font-size: 12px;
+	}
+
+	.get__star p img {
+		margin-left: 8px;
+	}
+
+	.batch_tx {
+		margin-left: 22px;
+	}
+
+	.rank {
+		padding-bottom: 40px;
+	}
+
+	.memori__title {
+		max-width: 100%;
+		margin: 0;
+		text-align: center;
+	}
+
+	.memori__title h6 {
+		font-size: 25px;
+		line-height: 28px;
+	}
+
+	.memori__title span {
+		font-size: 20px;
+		line-height: 22px;
+	}
+
+	.memori__title {
+		margin-bottom: 15px;
+	}
+
+	.memori__single__item {
+		margin-left: 0;
+	}
+
+	.memori__single__item h6 {
+		font-size: 15px;
+	}
+
+	.memori__single__item p {
+		font-size: 15px;
+	}
+
+	.memori {
+		padding-bottom: 40px;
+	}
+
+	.storie__title h4 {
+		font-size: 30px;
+		line-height: 32px;
+		margin-bottom: 10px;
+	}
+
+	.storie {
+		padding: 40px 0;
+	}
+
+	.storie__single__box {
+		width: 100%;
+	}
+
+	.footer__wrap {
+		display: block;
+	}
+
+	.footer__lf {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+
+	.footer__ri {
+		display: block;
+		width: 100%;
+	}
+
+	.social {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		margin-top: 33px;
+	}
+
+	.footer__menu ul li {
+		width: 50%;
+		float: left;
+	}
+
+	.copyright__tx {
+		height: auto;
+		padding: 15px 15px;
+		text-align: center;
+	}
+
+	.profile__img {
+		width: 35px;
+		height: 35px;
+		display: flex;
+		align-items: center;
+		margin-right: 15px;
+	}
+
+	.dropdown .dropdown-content {
+		position: absolute;
+		top: 50px;
+		right: -25px;
+	}
+
+
+	.login__bt {
+		display: none;
+	}
+
+
+	.login__bt.mbl__bt {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin-bottom: 20px;
+	}
+
+	.login__bt.mbl__bt a {
+		margin-right: 0;
+		margin: 0 10px;
+	}
+
+
+
+
+	/* search school responsive */
+
+	.sideBar__left {
+		display: none;
+	}
+
+	.rightBar__sticky {
+		display: none;
+	}
+
+	.src__card {
+		width: 100%;
+		margin: auto;
+		margin-top: 30px;
+	}
+
+	.search__top {
+		flex-direction: column;
+		align-items: start !important;
+		gap: 20px;
+	}
+
+	.search__bar {
+		width: 100%;
+		margin: 0;
+	}
+
+	.search__select {
+		width: 100%;
+	}
+
+	.search__select .nice-select {
+		width: 100%;
+	}
+
+	.search__button {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+	}
+
+	.card__text {
+		width: 100%;
+		margin: 0;
+		margin-top: 10px;
+	}
+
+	.src__card-img {
+		width: 100%;
+	}
+
+	.src__card-img img {
+		width: 90%;
+	}
+
+	.card__text h3 {
+		margin-bottom: 10px;
+	}
+
+	.src__content {
+		padding: 40px 15px;
+	}
+
+	.card__rating span {
+		margin-right: 0px;
+	}
+
+	.dropdown__dot {
+		left: -120px;
+	}
+
+	.dropdown__dot::after {
+		left: 108px;
+	}
+
+	/* search school responsive */
+
+
+
+	/* FPT training start here */
+
+	#training__center {
+		padding: 10px;
+		overflow: hidden;
+	}
+
+	.message__post-box textarea {
+		padding: 10px;
+	}
+
+	.profile__text {
+		margin-left: 0;
+	}
+
+	.profile__text a {
+		font-size: 25px;
+		margin-top: 40px;
+		display: block;
+		line-height: 30px;
+	}
+
+	.figure__profile {
+		bottom: -50px;
+		left: 10px;
+	}
+
+	.figure__profile img {
+		width: 100px;
+	}
+
+	.button__group {
+		flex-direction: column;
+		width: 100%;
+		margin: 15px 0;
+	}
+
+	.button__group a {
+		width: 100%;
+		text-align: center;
+	}
+
+	.training__button {
+		flex-direction: column;
+	}
+
+	.single__button {
+		padding: 5px 0;
+	}
+
+	.download__link {
+		width: 100%;
+	}
+
+	.download__link a {
+		width: 100%;
+		margin-bottom: 20px;
+		text-align: center;
+	}
+
+	.training__holder {
+		top: 40px;
+		width: 100%;
+	}
+
+	.story__posting {
+		padding: 10px;
+	}
+
+	.story__group {
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		gap: 10px;
+	}
+
+	.find__group {
+		flex-direction: column;
+	}
+
+	.input__holder {
+		width: 100%;
+	}
+
+	.group__selection .nice-select {
+		width: 100%;
+	}
+
+	.story__container {
+		flex-direction: column;
+	}
+
+	.story__content {
+		width: 100%;
+	}
+
+	.owner__more img {
+		width: 25px;
+	}
+
+	.owner__img {
+		min-width: 45px !important;
+		margin-right: 5px;
+	}
+
+	.post__bottom {
+		flex-direction: column;
+	}
+
+	.post__rating .single__rating {
+		margin-right: 15px;
+	}
+
+	.post__rating {
+		width: 100%;
+		margin: 10px 0;
+	}
+
+	.post__info h2 {
+		font-size: 18px;
+	}
+
+	.comment__box {
+		padding: 10px;
+	}
+
+	.owner__info.reply__box {
+		margin-left: 30px;
+	}
+
+	.post__text>div p {
+		font-size: 14px;
+	}
+
+	.post__text {
+		margin-left: 10px;
+	}
+
+	.comment__box .owner__info .owner__img img {
+		min-width: 45px !important;
+	}
+
+	.group__btn2 .modal-content {
+		width: 100%;
+	}
+
+	/* FPT training center end here */
+
+
+
+	/* bot page start here */
+
+	.bot__page .src__content {
+		width: 100%;
+	}
+	.extra__clients {
+		left: 10px;
+		top: 5px;
+	}
+	.popup__container .modal-content {
+		min-width: 100%;
+	}
+	.next__button button {
+		width: 100%;
+	}
+	.confirm__button.next__button button {
+		width: 80%;
+	}
+	/* bot page end here */
+
+
+
+}
+
+
+
+
+
+/* SM Small Device :550px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+	.filter__single__box {
+		width: 48%;
+		margin-bottom: 10px;
+	}
+
+	.filter__single__box.chon__select {
+		width: 48%;
+	}
+
+	.filter__inp {
+		width: 48%;
+		margin-top: 0;
+	}
+
+	.filter__btn {
+		margin-top: 0;
+		width: 48%;
+	}
+
+	.storie__single__box {
+		width: 50%;
+	}
+
+	.list__single__box {
+		width: 48%;
+		margin-bottom: 20px;
+	}
+
+	.footer__ri {
+		display: flex;
+		width: 100%;
+		align-items: start;
+	}
+
+	.social {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		margin-top: 0;
+	}
+
+
+
+
+	/* search school page res start here */
+
+	.src__card {
+		width: 80%;
+		margin: auto;
+		margin-top: 30px;
+	}
+
+	.card__text h3 {
+		margin-bottom: 120px;
+	}
+
+	/* search school page res end here */
+
+
+
+}
