@@ -884,6 +884,7 @@ tr:last-child td {
     transform: translateX(-50%);
     border-radius: 10px;
     z-index: 2;
+    box-shadow: 0 0 4px #48484848;
 }
 
 .get-awerd-popup .get-awerd-popup-main-area .inner {

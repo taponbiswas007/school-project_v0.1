@@ -106,6 +106,12 @@
     .progress-line-area .progress-line .progress-awerd-item-list .progress-awerd .star-quantity-box .item h1{
         font-size: 16px;
     }
+    .get-awerd-popup .get-awerd-popup-main-area{
+        width: 170px;
+    }
+    .get-awerd-popup .get-awerd-popup-main-area .inner{
+        padding: 40px 10px;
+    }
     
 }
 @media screen and (max-width: 576px) {
@@ -116,6 +122,9 @@
         font-size: 18px;
         line-height: 22px;
     }
+    .get-awerd-popup .get-awerd-popup-main-area {
+        width: 152px;
+      }
 }
 @media screen and (max-width: 540px) {
     .event-hero-area{
@@ -123,6 +132,16 @@
     }
     .progress-line-area .progress-line .progress-awerd-item-list .progress-awerd .star-quantity-box .item{
         width: 110px;
+    }
+    .get-awerd-popup .get-awerd-popup-main-area {
+        width: 133px;
+    }
+    .get-awerd-popup .get-awerd-popup-main-area .inner button{
+        padding: 10px 8px;
+
+    }
+    .get-awerd-popup .get-awerd-popup-main-area .inner h3{
+        margin-right: 0;
     }
    
 }
@@ -146,6 +165,9 @@
     .progress-line-area .progress-line .progress-awerd-item-list .progress-awerd .star-quantity-box .item{
         width: 100px;
     }
+    .get-awerd-popup .get-awerd-popup-main-area {
+        width: 129px;
+    }
 }
 @media screen and (max-width: 440px) {
     .event-hero-area{
@@ -167,6 +189,19 @@
     .progress-line-area .progress-line .progress-awerd-item-list .progress-awerd .star-quantity-box .item h1{
         font-size: 15px;
     }
+    .get-awerd-popup .get-awerd-popup-main-area {
+        width: 116px;
+    }
+    .get-awerd-popup .get-awerd-popup-main-area .inner button{
+        font-size: 13px;
+    }
+    .get-awerd-popup .get-awerd-popup-main-area .inner h3{
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    .get-awerd-popup .get-awerd-popup-main-area .inner {
+        padding: 19px 10px;
+      }
 }
 @media screen and (max-width: 376px) {
     .event-hero-area{
@@ -182,4 +217,14 @@
     .progress-line-area .progress-line .progress-awerd-item-list .progress-awerd .star-quantity-box .item h1{
         font-size: 14px;
     }
+    .get-awerd-popup .get-awerd-popup-main-area {
+        width: 110px;
+      }
+      .get-awerd-popup .get-awerd-popup-main-area .inner button {
+        font-size: 12px;
+      }
+      .get-awerd-popup .get-awerd-popup-main-area .inner h3 {
+        font-size: 13px;
+       
+      }
 }
