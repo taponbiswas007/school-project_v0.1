@@ -84,4 +84,42 @@ $(document).ready(function () {
         }, 1000);
     });
 
+
+    $(".generaldtybar").click(function() {
+        var $btn = $(".generaldtybtn");
+        var currentRotation = $btn.data("rotation") || 0;
+        var newRotation = currentRotation === 180 ? 0 : 180;
+    
+        $btn.css({
+            "transform": "rotate(" + newRotation + "deg)"
+        }).data("rotation", newRotation);
+    
+        $(".dutylist").slideToggle();
+    });
+
+
+    $(".dailymissionbar").click(function() {
+        var $btn = $(".dailymissionbtn");
+        var currentRotation = $btn.data("rotation") || 0;
+        var newRotation = currentRotation === 180 ? 0 : 180;
+    
+        $btn.css({
+            "transform": "rotate(" + newRotation + "deg)"
+        }).data("rotation", newRotation);
+    
+        $(".dailymissionlist").slideToggle();
+    });
+
+    $(".idlequestbar").click(function() {
+        var $btn = $(".idlequestbtn");
+        var currentRotation = $btn.data("rotation") || 0;
+        var newRotation = currentRotation === 180 ? 0 : 180;
+    
+        $btn.css({
+            "transform": "rotate(" + newRotation + "deg)"
+        }).data("rotation", newRotation);
+    
+        $(".idlequestlist").slideToggle();
+    });
+    
 });
