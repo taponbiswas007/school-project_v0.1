@@ -50,4 +50,38 @@ $(document).ready(function () {
     $(".get-awerdnow").click(function () {
         $(".get-awerd-popup").toggle();
     });
+
+    //general duty area
+    $('.beginbtn').click(function() {
+        var $this = $(this);
+        var $parent = $this.closest('.begin-item');
+        var $timer = $parent.find('#timer');
+        var $contdownTimer = $parent.find('.contdowntimer');
+        var $checkedbox = $parent.find('.checkedbox');
+
+        $this.hide();
+        $contdownTimer.show();
+
+        var duration = 22 * 60 + 10; // 22:10 in seconds
+
+        var interval = setInterval(function() {
+            var minutes = Math.floor(duration / 60);
+            var seconds = duration % 60;
+
+            $timer.text(
+                (minutes < 10 ? '0' : '') + minutes + ':' +
+                (seconds < 10 ? '0' : '') + seconds
+            );
+
+            if (duration <= 0) {
+                clearInterval(interval);
+                $contdownTimer.hide();
+                $checkedbox.show();
+                $parent.css('border', '1px solid #4ABC96');
+            }
+
+            duration--;
+        }, 1000);
+    });
+
 });

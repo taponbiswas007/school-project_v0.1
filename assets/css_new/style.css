@@ -938,6 +938,77 @@ tr:last-child td {
     margin-top: 140px;
     line-height: 21px;
 }
-
-
+.general-duty-list-header{
+    background: #f4f5f8;
+    padding: 20px 27px;
+    border-radius: 5px;
+    margin-top: 27px;
+    display: flex;
+}
+.general-duty-list-header span{
+    color:#626262 ;
+    font-size: 16px;
+    font-weight: 700;
+    
+}
+.general-duty-list-header button{
+    height: 14px;
+    width: 14px;
+    padding: 0;
+    background: none;
+    
+}
+.duty-countdown-area .begin-item {
+    border: 1px solid #B7B7B7;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+    column-gap: 20px;
+}
+.duty-countdown-area .begin-item .left h1{
+    font-weight: 700;
+    font-size: 16px;
+    color: #626262;
+    margin-bottom: 4px;
+    line-height: 22px;
+}
+.duty-countdown-area .begin-item .left p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #626262;
+    line-height: 20px;
+}
+.duty-countdown-area .begin-item .right{
+    column-gap: 20px;
+    min-width: 127px;
+}
+.duty-countdown-area .begin-item .right span{
+    font-size: 20px;
+    font-weight: 700;
+    color: #565656;
+}
+.duty-countdown-area .begin-item .right span img{
+    width: 15px;
+}
+.duty-countdown-area .begin-item .right button{
+    font-size: 12px;
+    font-weight: 400;
+    color: #ffffff;
+    background: #0487D9;
+    padding: 3px 7px ;
+    border-radius: 20px;
+}
+.duty-countdown-area .begin-item .right .checkedbox{
+    width: 37px;
+    display: none;
+}
+.duty-countdown-area .begin-item .right .contdowntimer{
+    display: none;
+}
+.duty-countdown-area .begin-item .right .contdowntimer ul li{
+    color: #4A4B4B;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+}
 /* mission page end */
