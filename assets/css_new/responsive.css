@@ -1,247 +1,306 @@
-@media screen and (max-width: 1300px){
-    .mission-page-main-area{
+@media screen and (max-width: 1300px) {
+    .mission-page-main-area {
         padding: 0;
     }
 }
+
 @media screen and (max-width: 1200px) {
-    .event-main-area{
+    .event-main-area {
         padding: 0 0;
     }
+
     .gift-exchange-box .profile-details-area {
         flex-direction: column;
         justify-content: center;
     }
-    .gift-exchange-box .profile-details-area .item:nth-child(3){
+
+    .gift-exchange-box .profile-details-area .item:nth-child(3) {
         display: flex;
         justify-content: flex-end;
         margin-top: 20px;
         width: 100%;
     }
-    .progress-line-area .progress-line .progress-awerd-item-list .progress-awerd .star-quantity-box .item{
+
+    .progress-line-area .progress-line .progress-awerd-item-list .progress-awerd .star-quantity-box .item {
         width: 120px;
     }
+
     .src__content {
         padding: 40px 40px;
-      }
+    }
 }
+
 @media screen and (max-width: 1080px) {
-    .event-hero-area .event-conter-area{
+    .event-hero-area .event-conter-area {
         flex-direction: column;
         row-gap: 20px;
         justify-content: center;
     }
-    .progress-line-area .progress-line .progress-awerd-item-list .progress-awerd .star-quantity-box .item{
+
+    .progress-line-area .progress-line .progress-awerd-item-list .progress-awerd .star-quantity-box .item {
         width: 100px;
     }
-    .progress-line-area .progress-line .progress-awerd-item-list .progress-awerd .star-quantity-box .item p{
+
+    .progress-line-area .progress-line .progress-awerd-item-list .progress-awerd .star-quantity-box .item p {
         font-size: 15px;
         line-height: 22px;
     }
 }
+
 @media screen and (max-width: 991px) {
-    .event-hero-area{
+    .event-hero-area {
         padding: 20px 20px;
     }
-    .event-hero-area .inner h1{
+
+    .event-hero-area .inner h1 {
         font-size: 18px;
-        line-height: 22px;
+        line-height: 28px;
     }
-    .gift-exchange-box .profile-details-area .item:nth-child(2) .top{
+
+    .gift-exchange-box .profile-details-area .item:nth-child(2) .top {
         margin: 20px 0;
         flex-direction: column;
         row-gap: 10px;
         align-items: flex-start !important;
     }
-    .progress-line-area .progress-line .progress-awerd-item-list .progress-awerd{
+
+    .progress-line-area .progress-line .progress-awerd-item-list .progress-awerd {
         width: 40px;
         height: 40px;
     }
-    .progress-line-area .progress-line .progress-awerd-item-list .progress-awerd img{
+
+    .progress-line-area .progress-line .progress-awerd-item-list .progress-awerd img {
         width: 15px;
-        
+
     }
-    .progress-line-area .progress-line .progress-awerd-item-list .progress-awerd .star-quantity-box .item{
+
+    .progress-line-area .progress-line .progress-awerd-item-list .progress-awerd .star-quantity-box .item {
         width: 81px;
     }
-    .progress-line-area .progress-line .progress-awerd-item-list .progress-awerd .star-quantity-box .item p{
+
+    .progress-line-area .progress-line .progress-awerd-item-list .progress-awerd .star-quantity-box .item p {
         font-size: 13px;
         line-height: 18px;
     }
-    .progress-line-area .progress-line .progress-awerd-item-list .progress-awerd .star-quantity-box .item h1{
+
+    .progress-line-area .progress-line .progress-awerd-item-list .progress-awerd .star-quantity-box .item h1 {
         font-size: 15px;
     }
 }
+
 @media screen and (max-width: 767px) {
-    .event-hero-area{
+    .event-hero-area {
         padding: 40px 40px;
     }
-    .event-hero-area .inner h1{
+
+    .event-hero-area .inner h1 {
         font-size: 21px;
-        line-height: 25px;
+        line-height: 32px;
     }
-    .event-hero-area .event-conter-area{
+
+    .event-hero-area .event-conter-area {
         flex-direction: row;
         row-gap: 20px;
         justify-content: space-between;
     }
-   
-    .gift-exchange-box .profile-details-area .item:nth-child(2) .top{
-        margin: 20px  0;
+
+    .gift-exchange-box .profile-details-area .item:nth-child(2) .top {
+        margin: 20px 0;
         flex-direction: row;
         row-gap: 10px;
         align-items: center !important;
     }
-    .progress-line-area .progress-line .progress-awerd-item-list .progress-awerd{
+
+    .progress-line-area .progress-line .progress-awerd-item-list .progress-awerd {
         width: 56px;
         height: 56px;
     }
-    .progress-line-area .progress-line .progress-awerd-item-list .progress-awerd img{
+
+    .progress-line-area .progress-line .progress-awerd-item-list .progress-awerd img {
         width: 20px;
-        
+
     }
-    .progress-line-area .progress-line .progress-awerd-item-list .progress-awerd .star-quantity-box .item{
+
+    .progress-line-area .progress-line .progress-awerd-item-list .progress-awerd .star-quantity-box .item {
         width: 130px;
     }
-    .progress-line-area .progress-line .progress-awerd-item-list .progress-awerd .star-quantity-box .item p{
+
+    .progress-line-area .progress-line .progress-awerd-item-list .progress-awerd .star-quantity-box .item p {
         font-size: 15px;
         line-height: 18px;
     }
-    .progress-line-area .progress-line .progress-awerd-item-list .progress-awerd .star-quantity-box .item h1{
+
+    .progress-line-area .progress-line .progress-awerd-item-list .progress-awerd .star-quantity-box .item h1 {
         font-size: 16px;
     }
-    .get-awerd-popup .get-awerd-popup-main-area{
+
+    .get-awerd-popup .get-awerd-popup-main-area {
         width: 170px;
     }
-    .get-awerd-popup .get-awerd-popup-main-area .inner{
+
+    .get-awerd-popup .get-awerd-popup-main-area .inner {
         padding: 40px 10px;
     }
-    
+
 }
+
 @media screen and (max-width: 576px) {
-    .event-hero-area{
+    .event-hero-area {
         padding: 30px 30px;
     }
-    .event-hero-area .inner h1{
+
+    .event-hero-area .inner h1 {
         font-size: 18px;
-        line-height: 22px;
+        line-height: 28px;
     }
+
     .get-awerd-popup .get-awerd-popup-main-area {
         width: 152px;
-      }
+    }
 }
+
 @media screen and (max-width: 540px) {
-    .event-hero-area{
+    .event-hero-area {
         padding: 20px 20px;
     }
-    .progress-line-area .progress-line .progress-awerd-item-list .progress-awerd .star-quantity-box .item{
+
+    .progress-line-area .progress-line .progress-awerd-item-list .progress-awerd .star-quantity-box .item {
         width: 110px;
     }
+
     .get-awerd-popup .get-awerd-popup-main-area {
         width: 133px;
     }
-    .get-awerd-popup .get-awerd-popup-main-area .inner button{
+
+    .get-awerd-popup .get-awerd-popup-main-area .inner button {
         padding: 10px 8px;
 
     }
-    .get-awerd-popup .get-awerd-popup-main-area .inner h3{
+
+    .get-awerd-popup .get-awerd-popup-main-area .inner h3 {
         margin-right: 0;
     }
-   
+
 }
+
 @media screen and (max-width: 481px) {
-    .event-hero-area{
+    .event-hero-area {
         padding: 15px 15px;
     }
-    .event-hero-area .event-conter-area{
+
+    .event-hero-area .event-conter-area {
         flex-direction: column;
         row-gap: 20px;
         justify-content: center;
     }
-    .progress-line-area .progress-line .progress-awerd-item-list .progress-awerd{
+
+    .progress-line-area .progress-line .progress-awerd-item-list .progress-awerd {
         width: 40px;
         height: 40px;
     }
-    .progress-line-area .progress-line .progress-awerd-item-list .progress-awerd img{
+
+    .progress-line-area .progress-line .progress-awerd-item-list .progress-awerd img {
         width: 15px;
-        
+
     }
-    .progress-line-area .progress-line .progress-awerd-item-list .progress-awerd .star-quantity-box .item{
+
+    .progress-line-area .progress-line .progress-awerd-item-list .progress-awerd .star-quantity-box .item {
         width: 100px;
     }
+
     .get-awerd-popup .get-awerd-popup-main-area {
         width: 129px;
     }
 }
+
 @media screen and (max-width: 440px) {
-    .event-hero-area{
+    .event-hero-area {
         padding: 15px 10px;
     }
-    .gift-exchange-box .profile-details-area .item:nth-child(2) .top{
+
+    .gift-exchange-box .profile-details-area .item:nth-child(2) .top {
         margin: 20px 0;
         flex-direction: column;
         row-gap: 10px;
         align-items: flex-start !important;
     }
-    .progress-line-area .progress-line .progress-awerd-item-list .progress-awerd .star-quantity-box .item{
+
+    .progress-line-area .progress-line .progress-awerd-item-list .progress-awerd .star-quantity-box .item {
         width: 81px;
     }
-    .progress-line-area .progress-line .progress-awerd-item-list .progress-awerd .star-quantity-box .item p{
+
+    .progress-line-area .progress-line .progress-awerd-item-list .progress-awerd .star-quantity-box .item p {
         font-size: 13px;
         line-height: 18px;
     }
-    .progress-line-area .progress-line .progress-awerd-item-list .progress-awerd .star-quantity-box .item h1{
+
+    .progress-line-area .progress-line .progress-awerd-item-list .progress-awerd .star-quantity-box .item h1 {
         font-size: 15px;
     }
+
     .get-awerd-popup .get-awerd-popup-main-area {
         width: 116px;
     }
-    .get-awerd-popup .get-awerd-popup-main-area .inner button{
+
+    .get-awerd-popup .get-awerd-popup-main-area .inner button {
         font-size: 13px;
     }
-    .get-awerd-popup .get-awerd-popup-main-area .inner h3{
+
+    .get-awerd-popup .get-awerd-popup-main-area .inner h3 {
         font-size: 14px;
         margin-bottom: 10px;
     }
+
     .get-awerd-popup .get-awerd-popup-main-area .inner {
         padding: 19px 10px;
-      }
-      .duty-countdown-area .begin-item .right {
+    }
+
+    .duty-countdown-area .begin-item .right {
         column-gap: 20px;
         row-gap: 20px;
         min-width: 62px;
         flex-direction: column;
         justify-content: center !important;
         align-items: center !important;
-      }
-      .progress-line-area h1{
+    }
+
+    .progress-line-area h1 {
         font-size: 15px;
-      }
-      .progress-line-area h1 img {
+    }
+
+    .progress-line-area h1 img {
         width: 10px;
-      }
+    }
 }
+
 @media screen and (max-width: 376px) {
-    .event-hero-area{
+    .event-hero-area {
         padding: 15px 10px;
     }
-    .progress-line-area .progress-line .progress-awerd-item-list .progress-awerd .star-quantity-box .item{
+
+    .progress-line-area .progress-line .progress-awerd-item-list .progress-awerd .star-quantity-box .item {
         width: 70px;
     }
-    .progress-line-area .progress-line .progress-awerd-item-list .progress-awerd .star-quantity-box .item p{
+
+    .progress-line-area .progress-line .progress-awerd-item-list .progress-awerd .star-quantity-box .item p {
         font-size: 12px;
         line-height: 17px;
     }
-    .progress-line-area .progress-line .progress-awerd-item-list .progress-awerd .star-quantity-box .item h1{
+
+    .progress-line-area .progress-line .progress-awerd-item-list .progress-awerd .star-quantity-box .item h1 {
         font-size: 14px;
     }
+
     .get-awerd-popup .get-awerd-popup-main-area {
         width: 110px;
-      }
-      .get-awerd-popup .get-awerd-popup-main-area .inner button {
+    }
+
+    .get-awerd-popup .get-awerd-popup-main-area .inner button {
         font-size: 12px;
-      }
-      .get-awerd-popup .get-awerd-popup-main-area .inner h3 {
+    }
+
+    .get-awerd-popup .get-awerd-popup-main-area .inner h3 {
         font-size: 13px;
-       
-      }
+
+    }
 }

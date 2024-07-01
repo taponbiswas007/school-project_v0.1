@@ -148,7 +148,7 @@ button {
 }
 
 .event-header h1 {
-    font-size: 12px;
+    font-size: 18px;
     line-height: 16px;
     font-weight: 400;
     color: #505050;
@@ -233,7 +233,7 @@ button {
     text-align: center;
     margin: 30px 0 20px 0;
     color: #424242;
-    line-height: 25px;
+    line-height: 32px;
 }
 
 .event-hero-area .inner p {
@@ -241,7 +241,7 @@ button {
     font-weight: 400;
     text-align: center;
     color: #424242;
-    line-height: 21px;
+    line-height: 25px;
 }
 
 .event-hero-area .event-conter-area {
@@ -480,6 +480,10 @@ tr:last-child td {
 /* ------------------------------------------------------------------------- */
 
 /* mission page start */
+.missionpagesideBar__left {
+    height: 100% !important;
+}
+
 .mission-page-main-area {
     font-family: "Mulish", sans-serif;
     padding: 0 50px;
