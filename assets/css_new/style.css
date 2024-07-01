@@ -136,10 +136,12 @@ button {
 .active {
     color: #3D92D1 !important;
 }
-
+body{
+    font-family: "Mulish";
+}
 /* event page start */
 .event-main-area {
-    font-family: "Mulish", sans-serif;
+    font-family: "Mulish";
     padding: 0 50px;
 }
 
