@@ -660,9 +660,8 @@ tr:last-child td {
     background: #ffffff;
     padding: 6px 7px 10px 7px;
     border-radius: 5px;
-    column-gap: 7px;
     margin-top: 30px;
-    overflow-x: auto;
+   overflow: hidden;
 }
 
 .gift-exchange-box .coin-collect-area .day-list-item .coinrreceived-btn {
@@ -682,7 +681,6 @@ tr:last-child td {
 
 .gift-exchange-box .coin-collect-area .day-list-item .content-area {
     height: 85px;
-    width: 99px;
     border-radius: 5px;
     background: #F9F9F9;
     flex-direction: column;
