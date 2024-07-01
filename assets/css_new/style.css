@@ -1062,3 +1062,96 @@ tr:last-child td {
 }
 
 /* mission page end */
+
+
+/* ----------------------------------------------------------------------- */
+
+
+
+/* news page area start */
+
+.news-pages-area{
+    padding: 30px 40px;
+}
+.news-page-main-area{
+    
+}
+.news-page-main-area h1{
+    font-size: 19px;
+    font-weight: 400;
+    color: #505050;
+    margin-left: 30px;
+
+}
+.news-page-main-area .news-heading-line{
+    background: #FBFBFB;
+    border: 1px solid #D3D3D3;
+    border-radius: 10px;
+    padding: 24px 22px;
+    margin-top: 10px;
+   
+}
+.news-page-main-area .news-heading-line .news-heading-line-item{
+    width: 32%;
+}
+
+.news-page-main-area .news-heading-line .news-heading-line-item .news-img{
+    height: 221px;
+    width: 100%;
+    position: relative;
+}
+.news-page-main-area .news-heading-line .news-heading-line-item .news-img img{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    object-fit: fill;
+    object-position: center;
+}
+.news-page-main-area .news-heading-line .news-heading-line-item .news-heading-link{
+    font-size: 18px;
+    font-weight: 900;
+    color: #666666;
+    text-align: left;
+    transition: .3s all;
+    margin-top: 20px;
+    display: block;
+    line-height: 25px;
+}
+.news-page-main-area .news-heading-line .news-heading-line-item .news-heading-link:hover{
+    color: #0487D9;
+}
+.news-page-main-area .main-news-thumble-area{
+    margin-top: 28px;
+}
+.news-page-main-area .main-news-thumble-area nav{
+    padding-bottom: 15px;
+    border-bottom: 0.5px solid #A0A0A0;
+}
+.news-page-main-area .main-news-thumble-area nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.news-page-main-area .main-news-thumble-area nav ul li{
+    display: inline-block;
+}
+.news-page-main-area .main-news-thumble-area nav ul li a{
+    color: #666666;
+    font-size: 16px;
+    font-weight: 900;
+    display: block;
+    text-transform: capitalize;
+}
+.news-page-main-area .main-news-thumble-area nav ul li .newsbar-active::after{
+    content: " ";
+    height: 5px;
+    width: 100%;
+    background: #3D92D1;
+}
+
+
+
+
+/* news page area end */
