@@ -542,7 +542,18 @@ tr:last-child td {
     border-radius: 10px;
     padding: 18px;
 }
-
+.gift-exchange-box .profile-details-area .item:nth-child(1){
+    width: 120px;
+    flex-shrink: 0;
+}
+.gift-exchange-box .profile-details-area .item:nth-child(3){
+    width: 125px;
+    flex-shrink: 0;
+}
+.gift-exchange-box .profile-details-area .item:nth-child(2){
+    width: calc(100% - 260px);
+    flex-shrink: 0;
+}
 .gift-exchange-box .profile-details-area .item:nth-child(1) img {
     width: 106px;
     height: 106px;
@@ -669,9 +680,10 @@ tr:last-child td {
     margin-top: 30px;
     flex-wrap: wrap;
     row-gap: 8px;
-    column-gap: 8px;
 }
-
+.gift-exchange-box .coin-collect-area .day-list-item{
+    width: 14%;
+}
 .gift-exchange-box .coin-collect-area .day-list-item .coinrreceived-btn {
     background: #F26F21;
     color: #ffffff;
@@ -689,7 +701,7 @@ tr:last-child td {
 
 .gift-exchange-box .coin-collect-area .day-list-item .content-area {
     height: 85px;
-    width: 90px;
+    width: 100%;
     border-radius: 5px;
     background: #F9F9F9;
     flex-direction: column;
@@ -799,9 +811,14 @@ tr:last-child td {
     justify-content: center;
     align-items: center;
     border-radius: 50%;
+    cursor: pointer;
+    transition: .3s all;
 
 }
-
+.progress-line-area .progress-line .progress-awerd-item-list .progress-awerd:hover{
+    background: #4ABC96;
+    border: 2px solid #F26F21;
+}
 .progress-line-area .progress-line .progress-awerd-item-list .progress-awerd .star-quantity-box {
     position: relative;
 }
@@ -952,6 +969,7 @@ tr:last-child td {
     border-radius: 5px;
     margin-top: 27px;
     display: flex;
+    height: 41px;
 }
 
 .general-duty-list-header span {
@@ -975,6 +993,7 @@ tr:last-child td {
     border-radius: 5px;
     margin-top: 10px;
     column-gap: 20px;
+    min-height: 70px;
 }
 
 .duty-countdown-area .begin-item .left h1 {

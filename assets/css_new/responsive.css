@@ -2,6 +2,12 @@
     .mission-page-main-area {
         padding: 0;
     }
+    .gift-exchange-box .coin-collect-area .day-list-item .content-area img {
+        width: 34px;
+      }
+      .gift-exchange-box .coin-collect-area .day-list-item .content-area h2{
+        font-size: 17px;
+      }
 }
 
 @media screen and (max-width: 1200px) {
@@ -12,6 +18,7 @@
     .gift-exchange-box .profile-details-area {
         flex-direction: column;
         justify-content: center;
+        row-gap: 20px;
     }
 
     .gift-exchange-box .profile-details-area .item:nth-child(3) {
@@ -27,6 +34,34 @@
 
     .src__content {
         padding: 40px 40px;
+    }
+    .gift-exchange-box .coin-collect-area{
+        justify-content: center !important;
+        column-gap: 5px;
+    }
+    .gift-exchange-box .coin-collect-area .day-list-item{
+        width: 19%;
+    }
+    .gift-exchange-box .profile-details-area .item:nth-child(1){
+        width: 100%;
+        flex-shrink: 1;
+       text-align: center;
+    }
+    .gift-exchange-box .profile-details-area .item:nth-child(3){
+        width: 100%;
+        flex-shrink: 1;
+       
+    }
+    .gift-exchange-box .profile-details-area .item:nth-child(2){
+        width: 100%;
+        flex-shrink: 1;
+        text-align: center;
+    }
+    .gift-exchange-box .profile-details-area .item:nth-child(2) .top{
+        justify-content: center;
+    }
+    .gift-exchange-box .profile-details-area .item:nth-child(2) .middle{
+        justify-content: center;
     }
 }
 
@@ -45,6 +80,13 @@
         font-size: 15px;
         line-height: 22px;
     }
+    .gift-exchange-box .coin-collect-area{
+        justify-content: center !important;
+        column-gap: 5px;
+    }
+    .gift-exchange-box .coin-collect-area .day-list-item{
+        width: 32%;
+    }
 }
 
 @media screen and (max-width: 991px) {
@@ -61,7 +103,8 @@
         margin: 20px 0;
         flex-direction: column;
         row-gap: 10px;
-        align-items: flex-start !important;
+        align-items: center;
+       
     }
 
     .progress-line-area .progress-line .progress-awerd-item-list .progress-awerd {
@@ -85,6 +128,9 @@
 
     .progress-line-area .progress-line .progress-awerd-item-list .progress-awerd .star-quantity-box .item h1 {
         font-size: 15px;
+    }
+    .gift-exchange-box .coin-collect-area .day-list-item{
+        width: 48%;
     }
 }
 
@@ -141,6 +187,10 @@
     .get-awerd-popup .get-awerd-popup-main-area .inner {
         padding: 40px 10px;
     }
+    .gift-exchange-box .coin-collect-area .day-list-item{
+        width: 19%;
+    }
+    
 
 }
 
@@ -156,6 +206,9 @@
 
     .get-awerd-popup .get-awerd-popup-main-area {
         width: 152px;
+    }
+    .gift-exchange-box .coin-collect-area .day-list-item{
+        width: 24%;
     }
 }
 
@@ -179,6 +232,9 @@
 
     .get-awerd-popup .get-awerd-popup-main-area .inner h3 {
         margin-right: 0;
+    }
+    .gift-exchange-box .coin-collect-area .day-list-item{
+        width: 32%;
     }
 
 }
@@ -211,6 +267,10 @@
     .get-awerd-popup .get-awerd-popup-main-area {
         width: 129px;
     }
+    .gift-exchange-box .profile-details-area .item:nth-child(2) .top {
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 @media screen and (max-width: 440px) {
@@ -222,7 +282,7 @@
         margin: 20px 0;
         flex-direction: column;
         row-gap: 10px;
-        align-items: flex-start !important;
+        
     }
 
     .progress-line-area .progress-line .progress-awerd-item-list .progress-awerd .star-quantity-box .item {
@@ -273,7 +333,7 @@
     }
 }
 
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 378px) {
     .event-hero-area {
         padding: 15px 10px;
     }
@@ -302,5 +362,8 @@
     .get-awerd-popup .get-awerd-popup-main-area .inner h3 {
         font-size: 13px;
 
+    }
+    .gift-exchange-box .coin-collect-area .day-list-item{
+        width: 48%;
     }
 }
