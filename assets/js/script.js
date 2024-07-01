@@ -52,7 +52,7 @@ $(document).ready(function () {
     });
 
     //general duty area
-    $('.beginbtn').click(function() {
+    $('.beginbtn').click(function () {
         var $this = $(this);
         var $parent = $this.closest('.begin-item');
         var $timer = $parent.find('#timer');
@@ -64,7 +64,7 @@ $(document).ready(function () {
 
         var duration = 22 * 60 + 10; // 22:10 in seconds
 
-        var interval = setInterval(function() {
+        var interval = setInterval(function () {
             var minutes = Math.floor(duration / 60);
             var seconds = duration % 60;
 
@@ -85,79 +85,43 @@ $(document).ready(function () {
     });
 
 
-    $(".generaldtybar").click(function() {
+    $(".generaldtybar").click(function () {
         var $btn = $(".generaldtybtn");
         var currentRotation = $btn.data("rotation") || 0;
         var newRotation = currentRotation === 180 ? 0 : 180;
-    
+
         $btn.css({
             "transform": "rotate(" + newRotation + "deg)"
         }).data("rotation", newRotation);
-    
+
         $(".dutylist").slideToggle();
     });
 
 
-    $(".dailymissionbar").click(function() {
+    $(".dailymissionbar").click(function () {
         var $btn = $(".dailymissionbtn");
         var currentRotation = $btn.data("rotation") || 0;
         var newRotation = currentRotation === 180 ? 0 : 180;
-    
+
         $btn.css({
             "transform": "rotate(" + newRotation + "deg)"
         }).data("rotation", newRotation);
-    
+
         $(".dailymissionlist").slideToggle();
     });
 
-    $(".idlequestbar").click(function() {
+    $(".idlequestbar").click(function () {
         var $btn = $(".idlequestbtn");
         var currentRotation = $btn.data("rotation") || 0;
         var newRotation = currentRotation === 180 ? 0 : 180;
-    
+
         $btn.css({
             "transform": "rotate(" + newRotation + "deg)"
         }).data("rotation", newRotation);
-    
+
         $(".idlequestlist").slideToggle();
     });
-    $('.responsive').slick({
-        dots: false, // Ensure dots are disabled
-        infinite: false,
-        arrows: false, // Ensure arrows are disabled
-        speed: 300,
-        slidesToShow: 4,
-        slidesToScroll: 4,
-        responsive: [
-            {
-                breakpoint: 1024,
-                settings: {
-                    slidesToShow: 3,
-                    slidesToScroll: 3,
-                   
-                }
-            },
-            {
-                breakpoint: 600,
-                settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 2,
-                   
-                }
-            },
-            {
-                breakpoint: 480,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
-                   
-                }
-            }
-            // You can unslick at a given breakpoint now by adding:
-            // settings: "unslick"
-            // instead of a settings object
-        ]
-    });
-    
-    
+
+
+
 });

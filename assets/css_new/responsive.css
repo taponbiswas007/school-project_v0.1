@@ -20,6 +20,9 @@
     .progress-line-area .progress-line .progress-awerd-item-list .progress-awerd .star-quantity-box .item{
         width: 120px;
     }
+    .src__content {
+        padding: 40px 40px;
+      }
 }
 @media screen and (max-width: 1080px) {
     .event-hero-area .event-conter-area{
@@ -201,6 +204,20 @@
     }
     .get-awerd-popup .get-awerd-popup-main-area .inner {
         padding: 19px 10px;
+      }
+      .duty-countdown-area .begin-item .right {
+        column-gap: 20px;
+        row-gap: 20px;
+        min-width: 62px;
+        flex-direction: column;
+        justify-content: center !important;
+        align-items: center !important;
+      }
+      .progress-line-area h1{
+        font-size: 15px;
+      }
+      .progress-line-area h1 img {
+        width: 10px;
       }
 }
 @media screen and (max-width: 376px) {
