@@ -139,6 +139,16 @@ button {
 body{
     font-family: "Mulish";
 }
+.rating__text a{
+    font-weight: 900;
+    color: #626262;
+}
+.sideBar__post h4{
+    color: #727272;
+}
+.sideBar__heading{
+    color: #6B7280;
+}
 /* event page start */
 .event-main-area {
     font-family: "Mulish";
