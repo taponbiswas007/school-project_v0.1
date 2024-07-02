@@ -174,5 +174,57 @@ $(document).ready(function () {
           // instead of a settings object
         ]
       });
+     // Function to check if the screen width is <= 991px
+     function isMobileView() {
+      return $(window).width() <= 991;
+  }
+
+  // Toggle gallery list and icons
+  $(".galleryitemopenbtn").click(function() {
+      if (isMobileView()) {
+          $(".newsgallerylist-area").toggle();
+          $(".closethis, .openthis").toggle();
+      }
+  });
+
+  // Hide gallery list and update icons when clicking outside the gallery area
+  $(document).click(function(event) {
+      if (isMobileView() && !$(event.target).closest('.newsgallerybar').length) {
+          if ($(".newsgallerylist-area").is(":visible")) {
+              $(".newsgallerylist-area").hide();
+              $(".closethis").hide();
+              $(".openthis").show();
+          }
+      }
+  });
+
+  // Update current item text and hide the gallery list when a link is clicked
+  $(".newsgalleryitemlist li a").click(function() {
+      if (isMobileView()) {
+          var selectedText = $(this).text();
+          $("#correntItem").text(selectedText);
+
+          $(".newsgallerylist-area").hide();
+          $(".closethis").hide();
+          $(".openthis").show();
+      }
+  });
+
+  // Handle window resize
+  $(window).resize(function() {
+      if (!isMobileView()) {
+          $(".newsgallerylist-area").show();
+          $(".closethis").hide();
+          $(".openthis").hide();
+      } else {
+          $(".newsgallerylist-area").hide();
+          $(".closethis").hide();
+          $(".openthis").show();
+      }
+  }).resize(); // Trigger resize to ensure correct initial state
+
+
+
+
 
 });
