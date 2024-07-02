@@ -66,6 +66,19 @@
     .news-pages-area{
         width: 100%;
     }
+    .mainnews-thumble-area .news-content-link-area a{
+        flex-direction: column;
+        row-gap: 20px;
+    
+    }
+    .mainnews-thumble-area .news-content-link-area a .left{
+        width: 100%;
+    
+    }
+    .mainnews-thumble-area .news-content-link-area a .right{
+        width: 100%;
+    
+    }
 }
 
 @media screen and (max-width: 1080px) {

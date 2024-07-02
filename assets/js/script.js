@@ -122,7 +122,7 @@ $(document).ready(function () {
         $(".idlequestlist").slideToggle();
     });
 
-    $('heading-line').slick({
+    $('.news-slide-main-area').slick({
         dots: false,
         infinite: false,
         speed: 300,
@@ -131,7 +131,7 @@ $(document).ready(function () {
         slidesToScroll: 4,
         responsive: [
           {
-            breakpoint: 1920,
+            breakpoint: 1200,
             settings: {
               slidesToShow: 3,
               slidesToScroll: 3,
@@ -140,17 +140,33 @@ $(document).ready(function () {
             }
           },
           {
-            breakpoint: 600,
+            breakpoint: 1080,
+            settings: {
+              slidesToShow: 2.5,
+              slidesToScroll: 2,
+             
+            }
+          },
+          {
+            breakpoint: 991,
             settings: {
               slidesToShow: 2,
-              slidesToScroll: 2
+              slidesToScroll: 2,
+             
+            }
+          },
+          {
+            breakpoint: 600,
+            settings: {
+              slidesToShow: 1.5,
+              slidesToScroll: 1,
             }
           },
           {
             breakpoint: 480,
             settings: {
               slidesToShow: 1,
-              slidesToScroll: 1
+              slidesToScroll: 1,
             }
           }
           // You can unslick at a given breakpoint now by adding:
