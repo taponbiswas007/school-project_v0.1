@@ -1096,7 +1096,7 @@ tr:last-child td {
 
 /* news page area start */
 .news-pages-left-bar {
-    height: 100%;
+    height: initial;
 }
 
 .news-pages-area {
