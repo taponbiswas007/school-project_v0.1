@@ -315,6 +315,9 @@
         bottom: -8px;
 
     }
+    .missionpage-center-content{
+        padding: 40px 20px;
+    }
 
 
 
@@ -381,7 +384,9 @@
     .mainnews-thumble-area {
         column-gap: 0;
     }
-
+    .missionpage-center-content{
+        padding: 40px 40px;
+    }
 
 }
 
@@ -405,6 +410,9 @@
 
     .news-page-main-area .news-heading-line .news-heading-line-item {
         width: 100%;
+    }
+    .missionpage-center-content{
+        padding: 40px 20px;
     }
 }
 
@@ -433,6 +441,7 @@
     .gift-exchange-box .coin-collect-area .day-list-item {
         width: 32%;
     }
+   
 
 }
 
