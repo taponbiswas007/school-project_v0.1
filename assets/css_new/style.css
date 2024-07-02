@@ -1173,11 +1173,23 @@ tr:last-child td {
 .mainnews-thumble-area .left{
     width: 100%;
 }
+.mainnews-thumble-area .right .rightBar__sticky{
+    height: 100%;
+}
 .mainnews-thumble-area .news-content-link-area {
     border: 1px solid #D3D3D3;
     border-radius: 10px;
     margin-top: 20px;
     padding: 10px;
+}
+.news-content-link-area .news-link-item {
+    border-bottom: 1px solid #D3D3D3;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.news-link-item:nth-child(5) {
+    border-bottom: none !important;
 }
 .mainnews-thumble-area .news-content-link-area a{
     width: 48%;
@@ -1189,6 +1201,8 @@ tr:last-child td {
     height: 128px;
     width: 100%;
     position: relative;
+    border-radius: 6px;
+    overflow: hidden;
 }
 .mainnews-thumble-area .news-content-link-area a .left .images-area img{
     position: absolute;
@@ -1240,4 +1254,67 @@ tr:last-child td {
     color: #666666;
     margin-top: 6px;
 } 
+.get-more-news-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.get-more-news-btn button{
+    font-size: 14px;
+    font-weight: 500;
+    color: #ffffff;
+    background: #3D92D1;
+    border-radius: 10px;
+    max-width: 185px;
+    width: 100%;
+    height: 38px;
+    transition: .3s all;
+}
+.get-more-news-btn button:hover{
+    background: #04508a;
+}
+
+.videoadd .left{
+    width: 48%;
+    position: relative;
+    height: 84px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.videoadd .left::after{
+    content: ' ';
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+.videoadd .left .video-thumble-img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+    object-position: center;
+}
+.videoadd .left .playbtn{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    z-index: 1;
+}
+.videoadd .right{
+    width: 48%;
+}
+.videoadd .right h1{
+    font-family: "inter";
+    font-weight: 700;
+    font-size: 14px;
+    color: #575757;
+    text-align: left;
+    margin-left: 0;
+}
 /* news page area end */
