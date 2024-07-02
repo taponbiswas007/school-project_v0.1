@@ -1073,9 +1073,7 @@ tr:last-child td {
 .news-pages-area{
     padding: 30px 40px;
 }
-.news-page-main-area{
-    
-}
+
 .news-page-main-area h1{
     font-size: 19px;
     font-weight: 400;
@@ -1169,8 +1167,77 @@ tr:last-child td {
     position: absolute;
     bottom: -16px;
 }
-
-
-
-
+.mainnews-thumble-area{
+    column-gap: 40px;
+}
+.mainnews-thumble-area .left{
+    width: 100%;
+}
+.mainnews-thumble-area .news-content-link-area {
+    border: 1px solid #D3D3D3;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 10px;
+}
+.mainnews-thumble-area .news-content-link-area a{
+    width: 48%;
+}
+.mainnews-thumble-area .news-content-link-area a .left{
+    width: 48%;
+}
+.mainnews-thumble-area .news-content-link-area a .left .images-area{
+    height: 128px;
+    width: 100%;
+    position: relative;
+}
+.mainnews-thumble-area .news-content-link-area a .left .images-area img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+    object-position: center;
+}
+.mainnews-thumble-area .news-content-link-area a .left p{
+    color: #575757;
+    font-family: "inter";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+    margin-top: 20px;
+}
+.mainnews-thumble-area .news-content-link-area a .right{
+    width: 48%;
+    padding: 20px 0;
+}
+.mainnews-thumble-area .news-content-link-area a .right h1{
+    font-family: "inter";
+    font-size: 14px;
+    font-weight: 700;
+    color: #575757;
+    margin-left: 0;
+}
+.mainnews-thumble-area .news-content-link-area a .right .reporter-area{
+    margin-top: 20px;
+    column-gap: 10px;
+}
+.mainnews-thumble-area .news-content-link-area a .right .reporter-area .reporter-img{
+    height: 38px;
+    width: 38px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.mainnews-thumble-area .news-content-link-area a .right .reporter-area .reporter-details h2{
+    font-weight: 900;
+    font-size: 12px;
+    color: #666666;
+} 
+.mainnews-thumble-area .news-content-link-area a .right .reporter-area .reporter-details p{
+    font-weight: 400;
+    font-size: 12px;
+    color: #666666;
+    margin-top: 6px;
+} 
 /* news page area end */
