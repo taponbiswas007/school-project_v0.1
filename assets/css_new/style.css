@@ -773,9 +773,14 @@ tr:last-child td {
 .gift-exchange-box .coin-collect-area .active-day .content-area .notchecked {
     display: block !important;
 }
-
+.progress-awerd-area{
+    height: 200px;
+ 
+}
 .progress-line-area {
     margin-top: 35px;
+   
+  
 }
 
 .progress-line-area h1 {
@@ -969,7 +974,6 @@ tr:last-child td {
     font-size: 16px;
     color: #4ABC96;
     font-weight: 700;
-    margin-top: 140px;
     line-height: 21px;
 }
 
