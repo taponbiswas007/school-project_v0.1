@@ -1073,7 +1073,7 @@ tr:last-child td {
     height: 100%;
 }
 .news-pages-area{
-    padding: 30px 40px;
+    padding: 30px 0 0 40px;
 }
 
 .news-page-main-area h1{
@@ -1089,6 +1089,8 @@ tr:last-child td {
     border-radius: 10px;
     padding: 24px 22px;
     margin-top: 10px;
+    margin-right: 20px;
+   
    
 }
 .news-page-main-area .news-heading-line .news-heading-line-item{
@@ -1183,6 +1185,7 @@ tr:last-child td {
     border-radius: 10px;
     margin-top: 20px;
     padding: 10px;
+    margin-bottom: 40px;
 }
 .news-content-link-area .news-link-item {
     border-bottom: 1px solid #D3D3D3;
@@ -1196,10 +1199,19 @@ tr:last-child td {
 .mainnews-thumble-area .news-content-link-area a{
     width: 48%;
     transition: .3s all;
+    position: relative;
+    padding: 6px;
+    border-radius: 5px;
 }
 .mainnews-thumble-area .news-content-link-area a:hover::after{
     content: ' ';
-    
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
 }
 .mainnews-thumble-area .news-content-link-area a .left{
     width: 48%;
@@ -1281,7 +1293,21 @@ tr:last-child td {
 .get-more-news-btn button:hover{
     background: #04508a;
 }
-
+.videoadd{
+    position: relative;
+    transition: .3s all ;
+    padding: 5px;
+}
+.videoadd:hover::after{
+    content: ' ';
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
 .videoadd .left{
     width: 48%;
     position: relative;
