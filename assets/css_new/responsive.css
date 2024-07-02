@@ -162,6 +162,10 @@
     .newspages-right-bar {
         max-width: 360px;
     }
+
+    .missionpageright-side {
+        max-width: 200px;
+    }
 }
 
 @media screen and (max-width: 991px) {
@@ -315,10 +319,23 @@
         bottom: -8px;
 
     }
-    .missionpage-center-content{
+
+    .missionpage-center-content {
         padding: 40px 20px;
     }
 
+    .missionpageright-side {
+        max-width: 136px;
+    }
+
+    .single__add h4 {
+        font-size: 13px;
+        line-height: 15px;
+    }
+
+    .single__add p {
+        margin-bottom: 8px;
+    }
 
 
 }
@@ -384,8 +401,13 @@
     .mainnews-thumble-area {
         column-gap: 0;
     }
-    .missionpage-center-content{
+
+    .missionpage-center-content {
         padding: 40px 40px;
+    }
+
+    .missionpageright-side {
+        max-width: 260px;
     }
 
 }
@@ -411,7 +433,8 @@
     .news-page-main-area .news-heading-line .news-heading-line-item {
         width: 100%;
     }
-    .missionpage-center-content{
+
+    .missionpage-center-content {
         padding: 40px 20px;
     }
 }
@@ -441,7 +464,7 @@
     .gift-exchange-box .coin-collect-area .day-list-item {
         width: 32%;
     }
-   
+
 
 }
 
@@ -553,6 +576,10 @@
     .mainnews-thumble-area .news-content-link-area a .right {
         width: 100%;
 
+    }
+
+    .missionpage-center-content {
+        padding: 40px 10px;
     }
 }
 

@@ -506,6 +506,13 @@ tr:last-child td {
     padding: 0 50px;
 }
 
+.missionpageright-side {
+    position: relative;
+    background: #F9F9F9;
+    border-left: 1px solid #D1D1D1;
+    max-width: 260px;
+}
+
 .mission-page-main-area h1 {
     font-size: 12px;
     font-weight: 400;
